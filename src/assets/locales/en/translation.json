@@ -1,5 +1,22 @@
 {
-  "title": "Welcome to Chasquitours",
+  "nav": ["Start", "Us", "Services", "Offers", "Tours", "packages", "flights", "bolivian", "contact us"],
+  "title": "Welcome to Chasqui Tours",
   "subtitle": "¡THE BEST PACKAGES AND TOURS AVAILABLE AT GREAT VALUE!",
-  "button": "Get Started"
+  "button": "Get Started",
+  "tours": [
+    {
+      "id": 1,
+      "title": "Cusco",
+      "image": "src/assets/img/golden/MACHUPICCHU 5.jpg",
+      "s_description": "Cuzco is a fascinating city located in the southern region of Peru, known for its rich history and impressive Spanish and Inca colonial architecture.",
+      "l_description": "Cuzco, also known as the Archaeological Capital of America, is a city in southeastern Peru that was the capital of the Inca empire. A tour in Cuzco usually includes a visit to the impressive ruin complex of Machu Picchu, considered one of the new seven wonders of the world. You can also visit other nearby Inca archaeological sites, such as the Sacsayhuamán fortress and the ruins of Tambomachay and Qenko. In addition to exploring Cuzco's rich history and culture, visitors can also enjoy the city's vibrant food scene, with its traditional dishes and unique culinary fusions, and engage in outdoor activities such as hiking, rafting, and mountain biking."
+    },
+    {
+      "id": 2,
+      "title": "Puno",
+      "image": "src/assets/img/golden/LOS UROS 9.jpg",
+      "s_description": "Puno is a city located in the highlands of southern Peru, famous for being next to Lake Titicaca, the highest navigable lake in the world and a sacred place for the Inca culture.",
+      "l_description": "Puno is a city located in the highlands of southern Peru, famous for being next to Lake Titicaca, the highest navigable lake in the world and a sacred place for the Inca culture. A tour in Puno usually includes a visit to Lake Titicaca, where you can see the floating islands of the Uros, a community that lives on islands made of reeds, an aquatic plant. You can also visit Taquile Island, where you can appreciate the customs and traditions of the Quechua culture, including its crafts and colorful textiles. Other popular activities include hikes through the Puno nature reserve, visits to Inca archaeological sites, and the chance to try delicious local food."
+    }
+  ]
 }

@@ -1,5 +1,32 @@
 {
-  "title": "Bienvenido a Chasquitours",
+  "nav": [
+    "Inicio",
+    "Nosotros",
+    "Servicios",
+    "Ofertas",
+    "Tours",
+    "Paquetes",
+    "Vuelos",
+    "Bolivia",
+    "Contactanos"
+  ],
+  "title": "Bienvenido a Chasqui Tours",
   "subtitle": "¡LOS MEJORES PAQUETES Y TOURS DISPONIBLES CON GRAN VALOR!!",
-  "button": "Empezar"
+  "button": "Empezar",
+  "tours": [
+    {
+      "id": 1,
+      "title": "Cusco",
+      "image": "src/assets/img/golden/MACHUPICCHU 5.jpg",
+      "s_description": "Cuzco es una ciudad fascinante ubicada en la región sur de Perú, conocida por su rica historia y su impresionante arquitectura colonial española e inca.",
+      "l_description": "Cuzco, también conocida como la Capital Arqueológica de América, es una ciudad en el sureste de Perú que fue la capital del imperio inca. Un tour en Cuzco generalmente incluye una visita al impresionante complejo de ruinas de Machu Picchu, considerado una de las nuevas siete maravillas del mundo. También se pueden visitar otros sitios arqueológicos incas cercanos, como la fortaleza de Sacsayhuamán y las ruinas de Tambomachay y Qenko. Además de explorar la rica historia y cultura de Cuzco, los visitantes también pueden disfrutar de la vibrante escena gastronómica de la ciudad, con sus platos tradicionales y fusiones culinarias únicas, y participar en actividades al aire libre como senderismo, rafting y ciclismo de montaña."
+    },
+    {
+      "id": 2,
+      "title": "Puno",
+      "image": "src/assets/img/golden/LOS UROS 9.jpg",
+      "s_description": "Puno es una ciudad ubicada en el altiplano del sur de Perú, famosa por estar junto al Lago Titicaca, el lago navegable más alto del mundo y un lugar sagrado para la cultura Inca.",
+      "l_description": "Puno es una ciudad ubicada en el altiplano del sur de Perú, famosa por estar junto al Lago Titicaca, el lago navegable más alto del mundo y un lugar sagrado para la cultura Inca. Un tour en Puno generalmente incluye una visita al lago Titicaca, donde se pueden ver las islas flotantes de los Uros, una comunidad que vive en islas construidas de totora, una planta acuática. También se puede visitar la Isla Taquile, donde se pueden apreciar las costumbres y tradiciones de la cultura quechua, incluyendo su artesanía y textiles coloridos. Otras actividades populares incluyen caminatas por la reserva natural de Puno, visitas a sitios arqueológicos incas, y la oportunidad de probar la deliciosa comida local."
+    }
+  ]
 }
