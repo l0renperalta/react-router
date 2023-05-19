@@ -24,16 +24,7 @@ i18n
   .init({
     fallbackLng: 'en',
     detection: {
-      order: [
-        'cookie',
-        'htmlTag',
-        'querystring',
-        'localStorage',
-        'sessionStorage',
-        'navigator',
-        'path',
-        'subdomain',
-      ],
+      order: ['cookie', 'htmlTag', 'querystring', 'localStorage', 'sessionStorage', 'navigator', 'path', 'subdomain'],
       caches: ['cookie'],
     },
     backend: {
