@@ -22,11 +22,7 @@ function Detail() {
             <div className="slides-1 portfolio-details-slider swiper">
               <div className="swiper-wrapper align-items-center">
                 <div className="swiper-slide">
-                  <img src={data.image} alt="" />
-                </div>
-
-                <div className="swiper-slide">
-                  <img src="src/assets/img/a/Machu-Picchu-la-Ciudadela-Inca.jpg" alt="" />
+                  <img src={data.image.replace('src', '')} alt="" />
                 </div>
               </div>
               <div className="swiper-pagination"></div>
@@ -44,17 +40,12 @@ function Detail() {
                 <div className="testimonial-item">
                   <p>
                     <i className="bi bi-quote quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
-                    cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
-                    legam anim culpa.
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster
+                    fugiat irure amet legam anim culpa.
                     <i className="bi bi-quote quote-icon-right"></i>
                   </p>
                   <div>
-                    <img
-                      src="src/assets/img/testimonials/testimonials-2.jpg"
-                      className="testimonial-img"
-                      alt=""
-                    />
+                    <img src="/assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
                     <h3>Sara Wilsson</h3>
                     <h4>Designer</h4>
                   </div>

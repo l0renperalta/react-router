@@ -13,7 +13,7 @@ function Packages() {
               <div className="col-xl-4 col-md-6">
                 <div className="post-item position-relative h-100">
                   <div className="post-img position-relative overflow-hidden">
-                    <img src="src/assets/img/golden/MACHUPICCHU 5.jpg" className="img-fluid" alt="" />
+                    <img src="/assets/img/golden/MACHUPICCHU 5.jpg" className="img-fluid" alt="" />
                     <span className="post-date">December 12</span>
                   </div>
 
@@ -31,8 +31,8 @@ function Packages() {
                     </div>
 
                     <p>
-                      Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi
-                      praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
+                      Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid
+                      dicta.
                     </p>
 
                     <hr />
@@ -48,11 +48,7 @@ function Packages() {
               <div className="col-xl-4 col-md-6">
                 <div className="post-item position-relative h-100">
                   <div className="post-img position-relative overflow-hidden">
-                    <img
-                      src="src/assets/img/golden/LAGUNA HUMANTAY 3.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
+                    <img src="/assets/img/golden/LAGUNA HUMANTAY 3.jpg" className="img-fluid" alt="" />
                     <span className="post-date">March 19</span>
                   </div>
 
@@ -69,10 +65,7 @@ function Packages() {
                       </div>
                     </div>
 
-                    <p>
-                      Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum
-                      voluptatum et. Quo libero rerum voluptatem pariatur nam.
-                    </p>
+                    <p>Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo libero rerum voluptatem pariatur nam.</p>
 
                     <hr />
 
@@ -87,7 +80,7 @@ function Packages() {
               <div className="col-xl-4 col-md-6">
                 <div className="post-item position-relative h-100">
                   <div className="post-img position-relative overflow-hidden">
-                    <img src="src/assets/img/golden/IQUITOS 2.jpg" className="img-fluid" alt="" />
+                    <img src="/assets/img/golden/IQUITOS 2.jpg" className="img-fluid" alt="" />
                     <span className="post-date">June 24</span>
                   </div>
 
@@ -105,8 +98,8 @@ function Packages() {
                     </div>
 
                     <p>
-                      Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem
-                      dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis.
+                      Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur
+                      sunt omnis.
                     </p>
 
                     <hr />
@@ -122,7 +115,7 @@ function Packages() {
               <div className="col-xl-4 col-md-6">
                 <div className="post-item position-relative h-100">
                   <div className="post-img position-relative overflow-hidden">
-                    <img src="src/assets/img/golden/LOS UROS 9.jpg" className="img-fluid" alt="" />
+                    <img src="/assets/img/golden/LOS UROS 9.jpg" className="img-fluid" alt="" />
                     <span className="post-date">August 05</span>
                   </div>
 
@@ -139,10 +132,7 @@ function Packages() {
                       </div>
                     </div>
 
-                    <p>
-                      Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae.
-                      Rem veritatis rerum enim et autem.
-                    </p>
+                    <p>Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem veritatis rerum enim et autem.</p>
 
                     <hr />
 
@@ -157,14 +147,12 @@ function Packages() {
               <div className="col-xl-4 col-md-6">
                 <div className="post-item position-relative h-100">
                   <div className="post-img position-relative overflow-hidden">
-                    <img src="src/assets/img/golden/TUBULARES ICA 26.jpg" className="img-fluid" alt="" />
+                    <img src="/assets/img/golden/TUBULARES ICA 26.jpg" className="img-fluid" alt="" />
                     <span className="post-date">September 17</span>
                   </div>
 
                   <div className="post-content d-flex flex-column">
-                    <h3 className="post-title">
-                      Accusamus quaerat aliquam qui debitis facilis consequatur
-                    </h3>
+                    <h3 className="post-title">Accusamus quaerat aliquam qui debitis facilis consequatur</h3>
 
                     <div className="meta d-flex align-items-center">
                       <div className="d-flex align-items-center">
@@ -176,10 +164,7 @@ function Packages() {
                       </div>
                     </div>
 
-                    <p>
-                      In itaque assumenda aliquam voluptatem qui temporibus iusto nisi quia. Autem vitae
-                      quas aperiam nesciunt mollitia tempora odio omnis. Ipsa
-                    </p>
+                    <p>In itaque assumenda aliquam voluptatem qui temporibus iusto nisi quia. Autem vitae quas aperiam nesciunt mollitia tempora odio omnis. Ipsa</p>
 
                     <hr />
 
@@ -194,11 +179,7 @@ function Packages() {
               <div className="col-xl-4 col-md-6">
                 <div className="post-item position-relative h-100">
                   <div className="post-img position-relative overflow-hidden">
-                    <img
-                      src="src/assets/img/golden/MONTAÑA 7 COLORES 1.jpg"
-                      className="img-fluid"
-                      alt=""
-                    />
+                    <img src="/assets/img/golden/MONTAÑA 7 COLORES 1.jpg" className="img-fluid" alt="" />
                     <span className="post-date">December 07</span>
                   </div>
 
@@ -215,10 +196,7 @@ function Packages() {
                       </div>
                     </div>
 
-                    <p>
-                      Expedita et temporibus eligendi enim molestiae est architecto praesentium dolores.
-                      Illo laboriosam officiis quis. Labore officia quia sit
-                    </p>
+                    <p>Expedita et temporibus eligendi enim molestiae est architecto praesentium dolores. Illo laboriosam officiis quis. Labore officia quia sit</p>
 
                     <hr />
 

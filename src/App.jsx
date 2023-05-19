@@ -23,11 +23,11 @@ function App() {
         </div>
 
         <div id="hero-carousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-          <div className="carousel-item active" style={{ backgroundImage: `url("src/assets/img/golden/CHOQUEQUIRAO3.jpg")` }}></div>
-          <div className="carousel-item" style={{ backgroundImage: `url("src/assets/img/golden/MACHUPICCHU 1.jpg")` }}></div>
-          <div className="carousel-item" style={{ backgroundImage: `url("src/assets/img/golden/CUSCO 22.jpg")` }}></div>
-          <div className="carousel-item" style={{ backgroundImage: `url("src/assets/img/golden/ISLA AMANTANI 70.jpg")` }}></div>
-          <div className="carousel-item" style={{ backgroundImage: `url("src/assets/img/golden/ISLA DE LOS UROS MF 100.jpg")` }}></div>
+          <div className="carousel-item active" style={{ backgroundImage: `url("/assets/img/golden/CHOQUEQUIRAO3.jpg")` }}></div>
+          <div className="carousel-item" style={{ backgroundImage: `url("/assets/img/golden/MACHUPICCHU 1.jpg")` }}></div>
+          <div className="carousel-item" style={{ backgroundImage: `url("/assets/img/golden/CUSCO 22.jpg")` }}></div>
+          <div className="carousel-item" style={{ backgroundImage: `url("/assets/img/golden/ISLA AMANTANI 70.jpg")` }}></div>
+          <div className="carousel-item" style={{ backgroundImage: `url("/assets/img/golden/ISLA DE LOS UROS MF 100.jpg")` }}></div>
 
           <a className="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
             <span className="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
@@ -52,7 +52,7 @@ function App() {
                 <div className="card-item">
                   <div className="row">
                     <div className="col-xl-5">
-                      <div className="card-bg" style={{ backgroundImage: `url("src/assets/img/travel/services-1.jpg")` }}></div>
+                      <div className="card-bg" style={{ backgroundImage: `url("/assets/img/travel/services-1.jpg")` }}></div>
                     </div>
                     <div className="col-xl-7 d-flex align-items-center">
                       <div className="card-body">
@@ -71,7 +71,7 @@ function App() {
                 <div className="card-item">
                   <div className="row">
                     <div className="col-xl-5">
-                      <div className="card-bg" style={{ backgroundImage: `url("src/assets/img/travel/services-2.jpg")` }}></div>
+                      <div className="card-bg" style={{ backgroundImage: `url("/assets/img/travel/services-2.jpg")` }}></div>
                     </div>
                     <div className="col-xl-7 d-flex align-items-center">
                       <div className="card-body">
@@ -90,7 +90,7 @@ function App() {
                 <div className="card-item">
                   <div className="row">
                     <div className="col-xl-5">
-                      <div className="card-bg" style={{ backgroundImage: `url("src/assets/img/travel/services-3.jpg")` }}></div>
+                      <div className="card-bg" style={{ backgroundImage: `url("/assets/img/travel/services-3.jpg")` }}></div>
                     </div>
                     <div className="col-xl-7 d-flex align-items-center">
                       <div className="card-body">
@@ -109,7 +109,7 @@ function App() {
                 <div className="card-item">
                   <div className="row">
                     <div className="col-xl-5">
-                      <div className="card-bg" style={{ backgroundImage: `url("src/assets/img/travel/services-4.jpg")` }}></div>
+                      <div className="card-bg" style={{ backgroundImage: `url("/assets/img/travel/services-4.jpg")` }}></div>
                     </div>
                     <div className="col-xl-7 d-flex align-items-center">
                       <div className="card-body">
@@ -134,7 +134,7 @@ function App() {
             <div className="row justify-content-around gy-4">
               <div
                 className="col-lg-6 img-bg"
-                style={{ backgroundImage: `url("src/assets/img/golden/GRUPO\ MEXICO\ 8.jpg")` }}
+                style={{ backgroundImage: `url("/assets/img/golden/GRUPO\ MEXICO\ 8.jpg")` }}
                 data-aos="zoom-in"
                 data-aos-delay="100"
               ></div>
@@ -249,7 +249,7 @@ function App() {
                     </ul>
                   </div>
                   <div className="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <img src="src/assets/img/golden/CONDOR PARA EL MAPA.jpg" alt="" className="img-fluid" />
+                    <img src="/assets/img/golden/CONDOR PARA EL MAPA.jpg" alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -278,7 +278,7 @@ function App() {
                     </ul>
                   </div>
                   <div className="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="src/assets/img/golden/SALAR DE UYUNI 500.jpg" alt="" className="img-fluid" />
+                    <img src="/assets/img/golden/SALAR DE UYUNI 500.jpg" alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -303,7 +303,7 @@ function App() {
                     </p>
                   </div>
                   <div className="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="src/assets/img/golden/TUBULARES ICA 21.png" alt="" className="img-fluid" />
+                    <img src="/assets/img/golden/TUBULARES ICA 21.png" alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -329,7 +329,7 @@ function App() {
                     </ul>
                   </div>
                   <div className="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="src/assets/img/golden/ISLA DE LOS UROS 509.jpg" alt="" className="img-fluid" />
+                    <img src="/assets/img/golden/ISLA DE LOS UROS 509.jpg" alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -349,7 +349,7 @@ function App() {
               <div className="col-xl-4 col-md-6">
                 <div className="post-item position-relative h-100">
                   <div className="post-img position-relative overflow-hidden">
-                    <img src="src/assets/img/golden/MACHUPICCHU 5.jpg" className="img-fluid" alt="" />
+                    <img src="/assets/img/golden/MACHUPICCHU 5.jpg" className="img-fluid" alt="" />
                     <span className="post-date">December 12</span>
                   </div>
 
@@ -384,7 +384,7 @@ function App() {
               <div className="col-xl-4 col-md-6">
                 <div className="post-item position-relative h-100">
                   <div className="post-img position-relative overflow-hidden">
-                    <img src="src/assets/img/golden/LAGUNA HUMANTAY 3.jpg" className="img-fluid" alt="" />
+                    <img src="/assets/img/golden/LAGUNA HUMANTAY 3.jpg" className="img-fluid" alt="" />
                     <span className="post-date">March 19</span>
                   </div>
 
@@ -416,7 +416,7 @@ function App() {
               <div className="col-xl-4 col-md-6">
                 <div className="post-item position-relative h-100">
                   <div className="post-img position-relative overflow-hidden">
-                    <img src="src/assets/img/golden/IQUITOS 2.jpg" className="img-fluid" alt="" />
+                    <img src="/assets/img/golden/IQUITOS 2.jpg" className="img-fluid" alt="" />
                     <span className="post-date">June 24</span>
                   </div>
 
@@ -451,7 +451,7 @@ function App() {
               <div className="col-xl-4 col-md-6">
                 <div className="post-item position-relative h-100">
                   <div className="post-img position-relative overflow-hidden">
-                    <img src="src/assets/img/golden/LOS UROS 9.jpg" className="img-fluid" alt="" />
+                    <img src="/assets/img/golden/LOS UROS 9.jpg" className="img-fluid" alt="" />
                     <span className="post-date">August 05</span>
                   </div>
 
@@ -483,7 +483,7 @@ function App() {
               <div className="col-xl-4 col-md-6">
                 <div className="post-item position-relative h-100">
                   <div className="post-img position-relative overflow-hidden">
-                    <img src="src/assets/img/golden/TUBULARES ICA 26.jpg" className="img-fluid" alt="" />
+                    <img src="/assets/img/golden/TUBULARES ICA 26.jpg" className="img-fluid" alt="" />
                     <span className="post-date">September 17</span>
                   </div>
 
@@ -515,7 +515,7 @@ function App() {
               <div className="col-xl-4 col-md-6">
                 <div className="post-item position-relative h-100">
                   <div className="post-img position-relative overflow-hidden">
-                    <img src="src/assets/img/golden/MONTAÑA 7 COLORES 1.jpg" className="img-fluid" alt="" />
+                    <img src="/assets/img/golden/MONTAÑA 7 COLORES 1.jpg" className="img-fluid" alt="" />
                     <span className="post-date">December 07</span>
                   </div>
 

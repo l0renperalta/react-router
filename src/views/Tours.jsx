@@ -20,7 +20,7 @@ function Tours() {
                 <div className="col-xl-4 col-md-6" key={index}>
                   <div className="post-item position-relative h-100">
                     <div className="post-img position-relative overflow-hidden">
-                      <img src={t.image} className="img-fluid" alt="" />
+                      <img src={`${t.image.replace('src', '')}`} className="img-fluid" alt="" />
                       <span className="post-date">December 12</span>
                     </div>
 

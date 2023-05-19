@@ -9,7 +9,7 @@ function About() {
       <section id="about" className="about">
         <div className="container" data-aos="fade-up">
           <div className="row position-relative">
-            <div className="col-lg-7 about-img" style={{ backgroundImage: `url("src/assets/img/golden/LOS\ UROS\ 13.jpg")` }}></div>
+            <div className="col-lg-7 about-img" style={{ backgroundImage: `url("/assets/img/golden/LOS\ UROS\ 13.jpg")` }}></div>
 
             <div className="col-lg-7">
               <div className="our-story">
@@ -111,12 +111,7 @@ function About() {
       <section id="alt-services" className="alt-services">
         <div className="container" data-aos="fade-up">
           <div className="row justify-content-around gy-4">
-            <div
-              className="col-lg-6 img-bg"
-              style={{ backgroundImage: `url("src/assets/img/golden/GRUPO\ MEXICO\ 8.jpg")` }}
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            ></div>
+            <div className="col-lg-6 img-bg" style={{ backgroundImage: `url("/assets/img/golden/GRUPO\ MEXICO\ 8.jpg")` }} data-aos="zoom-in" data-aos-delay="100"></div>
 
             <div className="col-lg-5 d-flex flex-column justify-content-center">
               <div className="about">
@@ -188,7 +183,7 @@ function About() {
               </div>
             </div>
 
-            <div className="col-lg-6 img-bg" style={{ backgroundImage: `url("src/assets/img/golden/LOS\ UROS\ 4.jpg")` }} data-aos="zoom-in" data-aos-delay="100"></div>
+            <div className="col-lg-6 img-bg" style={{ backgroundImage: `url("/assets/img/golden/LOS\ UROS\ 4.jpg")` }} data-aos="zoom-in" data-aos-delay="100"></div>
           </div>
         </div>
       </section>
@@ -206,7 +201,7 @@ function About() {
           <div className="row gy-5">
             <div className="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
               <div className="member-img">
-                <img src="src/assets/img/team/team-1.jpg" className="img-fluid" alt="" />
+                <img src="/assets/img/team/team-1.jpg" className="img-fluid" alt="" />
                 <div className="social">
                   <a href="#">
                     <i className="bi bi-twitter"></i>
@@ -231,7 +226,7 @@ function About() {
 
             <div className="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
               <div className="member-img">
-                <img src="src/assets/img/team/team-2.jpg" className="img-fluid" alt="" />
+                <img src="/assets/img/team/team-2.jpg" className="img-fluid" alt="" />
                 <div className="social">
                   <a href="#">
                     <i className="bi bi-twitter"></i>
@@ -256,7 +251,7 @@ function About() {
 
             <div className="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
               <div className="member-img">
-                <img src="src/assets/img/team/team-3.jpg" className="img-fluid" alt="" />
+                <img src="/assets/img/team/team-3.jpg" className="img-fluid" alt="" />
                 <div className="social">
                   <a href="#">
                     <i className="bi bi-twitter"></i>
@@ -281,7 +276,7 @@ function About() {
 
             <div className="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
               <div className="member-img">
-                <img src="src/assets/img/team/team-4.jpg" className="img-fluid" alt="" />
+                <img src="/assets/img/team/team-4.jpg" className="img-fluid" alt="" />
                 <div className="social">
                   <a href="#">
                     <i className="bi bi-twitter"></i>
@@ -306,7 +301,7 @@ function About() {
 
             <div className="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
               <div className="member-img">
-                <img src="src/assets/img/team/team-5.jpg" className="img-fluid" alt="" />
+                <img src="/assets/img/team/team-5.jpg" className="img-fluid" alt="" />
                 <div className="social">
                   <a href="#">
                     <i className="bi bi-twitter"></i>
@@ -331,7 +326,7 @@ function About() {
 
             <div className="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
               <div className="member-img">
-                <img src="src/assets/img/team/team-6.jpg" className="img-fluid" alt="" />
+                <img src="/assets/img/team/team-6.jpg" className="img-fluid" alt="" />
                 <div className="social">
                   <a href="#">
                     <i className="bi bi-twitter"></i>
@@ -369,7 +364,7 @@ function About() {
               <div className="swiper-slide">
                 <div className="testimonial-wrap">
                   <div className="testimonial-item">
-                    <img src="src/assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
+                    <img src="/assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
                     <h3>Saul Goodman</h3>
                     <h4>Ceo &amp; Founder</h4>
                     <div className="stars">
@@ -392,7 +387,7 @@ function About() {
               <div className="swiper-slide">
                 <div className="testimonial-wrap">
                   <div className="testimonial-item">
-                    <img src="src/assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
+                    <img src="/assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
                     <h3>Sara Wilsson</h3>
                     <h4>Designer</h4>
                     <div className="stars">
@@ -415,7 +410,7 @@ function About() {
               <div className="swiper-slide">
                 <div className="testimonial-wrap">
                   <div className="testimonial-item">
-                    <img src="src/assets/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt="" />
+                    <img src="/assets/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt="" />
                     <h3>Jena Karlis</h3>
                     <h4>Store Owner</h4>
                     <div className="stars">
@@ -438,7 +433,7 @@ function About() {
               <div className="swiper-slide">
                 <div className="testimonial-wrap">
                   <div className="testimonial-item">
-                    <img src="src/assets/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt="" />
+                    <img src="/assets/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt="" />
                     <h3>Matt Brandon</h3>
                     <h4>Freelancer</h4>
                     <div className="stars">
@@ -461,7 +456,7 @@ function About() {
               <div className="swiper-slide">
                 <div className="testimonial-wrap">
                   <div className="testimonial-item">
-                    <img src="src/assets/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt="" />
+                    <img src="/assets/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt="" />
                     <h3>John Larson</h3>
                     <h4>Entrepreneur</h4>
                     <div className="stars">
