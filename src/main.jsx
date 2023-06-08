@@ -9,13 +9,14 @@ import App from './App';
 import About from './views/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Tours from './views/Tours';
-import Services from './views/Services';
 import Offers from './views/Offers';
+import Peru from './views/Peru';
+import Bolivia from './views/Bolivia';
 import Packages from './views/Packages';
 import Flights from './views/Flights';
 import Contact from './views/Contact';
 import Detail from './components/Detail';
+import Destinations from './components/Destinations';
 
 i18n
   .use(initReactI18next)
@@ -42,13 +43,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/peru" element={<Peru />} />
+        <Route path="/peru/destinations" element={<Destinations />} />
+        <Route path="/peru/destinations/detail" element={<Detail />} />
+        <Route path="/bolivia" element={<Bolivia />} />
+        <Route path="/bolivia/detail" element={<Detail />} />
         <Route path="/offers" element={<Offers />} />
-        <Route path="/offers/detail" element={<Detail />} />
-        <Route path="/tours" element={<Tours />} />
-        <Route path="/tours/detail" element={<Detail />} />
         <Route path="/packages" element={<Packages />} />
-        <Route path="/packages/detail" element={<Detail />} />
         <Route path="/flights" element={<Flights />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../components/Banner';
+import ServicesComponent from '../components/ServicesComponent';
 
 function About() {
   return (
@@ -187,6 +188,8 @@ function About() {
           </div>
         </div>
       </section>
+
+      <ServicesComponent />
 
       <section id="team" className="team">
         <div className="container" data-aos="fade-up">

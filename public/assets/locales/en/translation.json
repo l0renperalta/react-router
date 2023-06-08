@@ -1,17 +1,71 @@
 {
-  "nav": ["Start", "Us", "Services", "Offers", "Tours", "packages", "flights", "bolivian", "contact us"],
-  "title": "Welcome to Chasqui Tours",
-  "subtitle": "¡THE BEST PACKAGES AND TOURS AVAILABLE AT GREAT VALUE!",
-  "button": "Get Started",
-  "tours": [
+  "nav": [
+    "Home",
+    "About Us",
     {
+      "title": "Peru",
+      "destinations": [
+        {
+          "title": "Cusco",
+          "destinations": ["Machu Picchu", "Choquequirao"]
+        },
+        {
+          "title": "Puno",
+          "destinations": ["Lake Titicaca", "Amantani"]
+        }
+      ]
+    },
+    "Bolivia",
+    "Offers",
+    "Packages",
+    "Flights",
+    "Bolivia",
+    "Contact Us"
+  ],
+  "title": "Welcome to Chasqui Tours",
+  "subtitle": "THE BEST PACKAGES AND TOURS AVAILABLE WITH GREAT VALUE!!",
+  "button": "Get Started",
+  "peru": [
+    {
+      "destinations": [
+        {
+          "id": 1,
+          "title": "Machu Picchu",
+          "image": "src/assets/img/golden/MACHUPICCHU 5.jpg",
+          "s_description": "Machu Picchu, located in the Andes Mountains of Peru, is a renowned ancient Inca citadel that captivates visitors with its breathtaking beauty and intriguing history.",
+          "l_description": "Machu Picchu, located in the Andes Mountains of Peru, is a renowned ancient Inca citadel that captivates visitors with its breathtaking beauty and intriguing history. This UNESCO World Heritage site is perched high above the Urubamba River, surrounded by lush green mountains and mist-shrouded peaks. A visit to Machu Picchu unveils the remarkable architectural mastery of the Incas, with its impressive stone structures, intricate terraces, and enigmatic temples. Exploring the ruins allows you to immerse yourself in the mystical atmosphere of this sacred place and witness the awe-inspiring panoramic views of the surrounding landscapes. Along with its historical significance, Machu Picchu offers opportunities for adventurous hikes, including the famous Inca Trail, allowing you to connect with nature and experience the magnificence of this ancient wonder."
+        },
+        {
+          "id": 2,
+          "title": "Choquequirao",
+          "image": "src/assets/img/golden/CHOQUEQUIRAO3.jpg",
+          "s_description": "Choquequirao, nestled in the rugged Vilcabamba Mountain range of Peru, is an archaeological site that reveals the remnants of an ancient Inca city.",
+          "l_description": "Choquequirao, nestled in the rugged Vilcabamba Mountain range of Peru, is an archaeological site that reveals the remnants of an ancient Inca city. Often referred to as the 'sister city' of Machu Picchu, Choquequirao enchants visitors with its remote and untouched charm. Accessible only by foot, the journey to Choquequirao rewards adventurers with awe-inspiring vistas of deep canyons, snow-capped peaks, and lush valleys. Exploring the expansive terraces, ceremonial platforms, and stone structures of Choquequirao unveils the remarkable engineering and architectural achievements of the Incas. The site's secluded location adds to its allure, allowing visitors to immerse themselves in the tranquility of the surrounding natural environment. A trek to Choquequirao offers a unique opportunity to connect with the ancient past while reveling in the beauty of the Peruvian wilderness."
+        }
+      ],
       "id": 1,
       "title": "Cusco",
       "image": "src/assets/img/golden/MACHUPICCHU 5.jpg",
-      "s_description": "Cuzco is a fascinating city located in the southern region of Peru, known for its rich history and impressive Spanish and Inca colonial architecture.",
-      "l_description": "Cuzco, also known as the Archaeological Capital of America, is a city in southeastern Peru that was the capital of the Inca empire. A tour in Cuzco usually includes a visit to the impressive ruin complex of Machu Picchu, considered one of the new seven wonders of the world. You can also visit other nearby Inca archaeological sites, such as the Sacsayhuamán fortress and the ruins of Tambomachay and Qenko. In addition to exploring Cuzco's rich history and culture, visitors can also enjoy the city's vibrant food scene, with its traditional dishes and unique culinary fusions, and engage in outdoor activities such as hiking, rafting, and mountain biking."
+      "s_description": "Cusco is a fascinating city located in the southern region of Peru, known for its rich history and impressive Spanish colonial and Inca architecture.",
+      "l_description": "Cusco, also known as the Archaeological Capital of America, is a city in southeastern Peru that was the capital of the Inca Empire. A tour in Cusco usually includes a visit to the impressive ruins of Machu Picchu, considered one of the new seven wonders of the world. Other nearby Inca archaeological sites can also be visited, such as the fortress of Sacsayhuamán and the ruins of Tambomachay and Qenko. In addition to exploring Cusco's rich history and culture, visitors can also enjoy the city's vibrant gastronomic scene, with its traditional dishes and unique culinary fusions, and participate in outdoor activities such as hiking, rafting, and mountain biking."
     },
     {
+      "destinations": [
+        {
+          "id": 1,
+          "title": "Lake Titicaca",
+          "image": "src/assets/img/golden/LOS UROS 9.jpg",
+          "s_description": "Lake Titicaca, situated in the Andes Mountains at the border of Peru and Bolivia, is the highest navigable lake in the world and a place of great cultural significance.",
+          "l_description": "Lake Titicaca, situated in the Andes Mountains at the border of Peru and Bolivia, is the highest navigable lake in the world and a place of great cultural significance. This vast expanse of shimmering blue waters captivates visitors with its serene beauty and mystical atmosphere. Steeped in myth and legend, Lake Titicaca is believed to be the birthplace of the Inca civilization and is revered as a sacred site. A boat trip across the lake unveils a captivating world of floating islands, inhabited by indigenous communities such as the Uros people who live on man-made islands constructed from totora reeds. Visiting Taquile Island offers an opportunity to immerse yourself in the rich traditions and customs of the Quechua people, known for their vibrant textiles and intricate handicrafts. Exploring Lake Titicaca allows you to witness the harmonious relationship between nature and culture, leaving an indelible impression of beauty and spirituality."
+        },
+        {
+          "id": 2,
+          "title": "Amantani",
+          "image": "src/assets/img/golden/ISLA AMANTANI 40 MF.jpg",
+          "s_description": "Amantani Island, nestled in the heart of Lake Titicaca, is a picturesque haven that offers a unique cultural experience.",
+          "l_description": "Amantani Island, nestled in the heart of Lake Titicaca, is a picturesque haven that offers a unique cultural experience. This island, known for its tranquil beauty and traditional way of life, is home to indigenous Quechua-speaking communities. Visiting Amantani allows you to immerse yourself in the authentic lifestyle of the islanders, who warmly welcome visitors and share their ancient customs and traditions. Here, you can witness the colorful traditional clothing, partake in vibrant festivities, and savor the delicious local cuisine. Exploring the terraced fields, wandering along the cobblestone paths, and hiking to the island's highest points offers panoramic views of the surrounding lake and mountains. Staying overnight with a local host family provides an intimate glimpse into the islanders' daily life and offers a truly immersive experience."
+        }
+      ],
       "id": 2,
       "title": "Puno",
       "image": "src/assets/img/golden/LOS UROS 9.jpg",

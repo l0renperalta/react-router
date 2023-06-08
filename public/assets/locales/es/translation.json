@@ -2,9 +2,21 @@
   "nav": [
     "Inicio",
     "Nosotros",
-    "Servicios",
+    {
+      "title": "Peru",
+      "destinations": [
+        {
+          "title": "Cusco",
+          "destinations": ["Machu Picchu", "Choquequirao"]
+        },
+        {
+          "title": "Puno",
+          "destinations": ["Lago Titicaca", "Amantani"]
+        }
+      ]
+    },
+    "Bolivia",
     "Ofertas",
-    "Tours",
     "Paquetes",
     "Vuelos",
     "Bolivia",
@@ -13,8 +25,24 @@
   "title": "Bienvenido a Chasqui Tours",
   "subtitle": "¡LOS MEJORES PAQUETES Y TOURS DISPONIBLES CON GRAN VALOR!!",
   "button": "Empezar",
-  "tours": [
+  "peru": [
     {
+      "destinations": [
+        {
+          "id": 1,
+          "title": "Machu Picchu",
+          "image": "src/assets/img/golden/MACHUPICCHU 5.jpg",
+          "s_description": "Machu Picchu, ubicado en las montañas de los Andes en Perú, es una renombrada ciudadela antigua inca que cautiva a los visitantes con su impresionante belleza e intrigante historia.",
+          "l_description": "Machu Picchu, ubicado en las montañas de los Andes en Perú, es una renombrada ciudadela antigua inca que cautiva a los visitantes con su impresionante belleza e intrigante historia. Este sitio, declarado Patrimonio de la Humanidad por la UNESCO, se encuentra en lo alto del río Urubamba, rodeado de exuberantes montañas verdes y picos cubiertos de neblina. Una visita a Machu Picchu revela la notable maestría arquitectónica de los incas, con sus impresionantes estructuras de piedra, terrazas intrincadas y enigmáticos templos. Explorar las ruinas te sumerge en la atmósfera mística de este lugar sagrado y te permite contemplar las impresionantes vistas panorámicas de los paisajes circundantes. Además de su importancia histórica, Machu Picchu ofrece oportunidades para realizar caminatas aventureras, incluyendo el famoso Camino Inca, que te permite conectarte con la naturaleza y experimentar la grandeza de esta antigua maravilla."
+        },
+        {
+          "id": 2,
+          "title": "Choquequirao",
+          "image": "src/assets/img/golden/CHOQUEQUIRAO3.jpg",
+          "s_description": "Choquequirao, ubicado en la accidentada cordillera de Vilcabamba en Perú, es un sitio arqueológico que revela los vestigios de una antigua ciudad inca.",
+          "l_description": "Choquequirao, ubicado en la accidentada cordillera de Vilcabamba en Perú, es un sitio arqueológico que revela los vestigios de una antigua ciudad inca. A menudo referido como la 'ciudad hermana' de Machu Picchu, Choquequirao encanta a los visitantes con su encanto remoto e inalterado. Solo se puede acceder a pie, y el viaje hacia Choquequirao recompensa a los aventureros con vistas impresionantes de cañones profundos, picos cubiertos de nieve y exuberantes valles. Explorar las extensas terrazas, plataformas ceremoniales y estructuras de piedra de Choquequirao revela los notables logros ingenieriles y arquitectónicos de los incas. La ubicación aislada del sitio agrega a su atractivo, permitiendo a los visitantes sumergirse en la tranquilidad del entorno natural circundante. Una caminata hacia Choquequirao ofrece una oportunidad única para conectarse con el pasado antiguo mientras se disfruta de la belleza de la naturaleza peruana."
+        }
+      ],
       "id": 1,
       "title": "Cusco",
       "image": "src/assets/img/golden/MACHUPICCHU 5.jpg",
@@ -22,6 +50,22 @@
       "l_description": "Cuzco, también conocida como la Capital Arqueológica de América, es una ciudad en el sureste de Perú que fue la capital del imperio inca. Un tour en Cuzco generalmente incluye una visita al impresionante complejo de ruinas de Machu Picchu, considerado una de las nuevas siete maravillas del mundo. También se pueden visitar otros sitios arqueológicos incas cercanos, como la fortaleza de Sacsayhuamán y las ruinas de Tambomachay y Qenko. Además de explorar la rica historia y cultura de Cuzco, los visitantes también pueden disfrutar de la vibrante escena gastronómica de la ciudad, con sus platos tradicionales y fusiones culinarias únicas, y participar en actividades al aire libre como senderismo, rafting y ciclismo de montaña."
     },
     {
+      "destinations": [
+        {
+          "id": 1,
+          "title": "Lago Titicaca",
+          "image": "src/assets/img/golden/LOS UROS 9.jpg",
+          "s_description": "El lago Titicaca, situado en las montañas de los Andes en la frontera entre Perú y Bolivia, es el lago navegable más alto del mundo y un lugar de gran importancia cultural.",
+          "l_description": "El lago Titicaca, situado en las montañas de los Andes en la frontera entre Perú y Bolivia, es el lago navegable más alto del mundo y un lugar de gran importancia cultural. Con su vasta extensión de agua azul profundo y sus impresionantes vistas panorámicas, el lago Titicaca ha sido considerado sagrado por los antiguos incas y es reverenciado por las comunidades indígenas que lo rodean. Un viaje al lago Titicaca te permite explorar las islas flotantes de los Uros, construidas a partir de totora, una planta acuática, y descubrir la forma de vida tradicional de esta comunidad ancestral. También puedes visitar la Isla Taquile, conocida por su artesanía textil excepcional y sus tradiciones culturales únicas. Además, puedes disfrutar de paseos en bote por el lago, admirar las maravillas naturales y experimentar la rica herencia cultural de la región mientras te sumerges en su entorno tranquilo y sereno."
+        },
+        {
+          "id": 2,
+          "title": "Amantani",
+          "image": "src/assets/img/golden/ISLA AMANTANI 40 MF.jpg",
+          "s_description": "La isla Amantani, ubicada en el corazón del lago Titicaca, es un refugio pintoresco que ofrece una experiencia cultural única.",
+          "l_description": "La isla Amantani, ubicada en el corazón del lago Titicaca, es un refugio pintoresco que ofrece una experiencia cultural única. Esta isla, conocida por su belleza tranquila y su estilo de vida tradicional, alberga a comunidades indígenas que hablan quechua. Visitar Amantani te permite sumergirte en el auténtico estilo de vida de los habitantes de la isla, quienes te reciben con calidez y comparten sus antiguas costumbres y tradiciones. Aquí, puedes presenciar la colorida vestimenta tradicional, participar en festividades vibrantes y saborear la deliciosa cocina local. Explorar los campos escalonados, pasear por los caminos empedrados y hacer senderismo hacia los puntos más altos de la isla ofrece vistas panorámicas del lago y las montañas circundantes. Pasar la noche con una familia anfitriona local brinda una visión íntima de la vida cotidiana de los habitantes de la isla y ofrece una experiencia realmente inmersiva."
+        }
+      ],
       "id": 2,
       "title": "Puno",
       "image": "src/assets/img/golden/LOS UROS 9.jpg",

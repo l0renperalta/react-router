@@ -8,9 +8,11 @@ function Detail() {
 
   if (!ready) return 'loading translations...';
 
-  const tours = t(`tours`, { returnObjects: true });
-  const index = tours.findIndex((t) => t.id === location.state);
-  const data = t(`tours.${index}`, { returnObjects: true });
+  // const tours = t(`tours`, { returnObjects: true });
+  // const index = tours.findIndex((t) => t.id === location.state);
+  // const data = t(`tours.${index}`, { returnObjects: true });
+
+  const data = location.state;
 
   return (
     <main id="main">
