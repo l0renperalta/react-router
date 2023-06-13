@@ -4,52 +4,77 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 function Bolivia() {
-  const { t, i18n, ready } = useTranslation();
-
-  if (!ready) return 'loading translations...';
-
-  const tours = t('tours', { returnObjects: true });
-
   return (
     <main id="main">
       <Banner title={location.pathname.split('/')[1]} />
 
-      <section id="blog" className="blog">
-        <div className="container" data-aos="fade-up" data-aos-delay="100">
-          <div className="row gy-4 posts-list">
-            {tours.map((t, index) => (
-              <div className="col-xl-4 col-md-6" key={index}>
-                <div className="post-item position-relative h-100">
-                  <div className="post-img position-relative overflow-hidden">
-                    <img src={`${t.image.replace('src', '')}`} className="img-fluid" alt="" />
-                    <span className="post-date">December 12</span>
-                  </div>
+      <section id="services-cards" className="services-cards">
+        <div className="container" data-aos="fade-up">
+          <div className="row gy-4">
+            <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+              <h3>Quasi eaque omnis</h3>
+              <p>Eius non minus autem soluta ut ui labore omnis quisquam corrupti autem odit voluptas quos commodi magnam occaecati.</p>
+              <ul className="list-unstyled">
+                <li>
+                  <i className="bi bi-check2"></i> <span>Ullamco laboris nisi ut aliquip</span>
+                </li>
+                <li>
+                  <i className="bi bi-check2"></i> <span>Duis aute irure dolor in reprehenderit</span>
+                </li>
+                <li>
+                  <i className="bi bi-check2"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span>
+                </li>
+              </ul>
+            </div>
 
-                  <div className="post-content d-flex flex-column">
-                    <h3 className="post-title">{t.title}</h3>
+            <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+              <h3>Et nemo dolores consectetur</h3>
+              <p>Ducimus ea quam et occaecati est. Temporibus in soluta labore voluptates aut. Et sit soluta non repellat sed quia dire plovers tradoria</p>
 
-                    <div className="meta d-flex align-items-center">
-                      <div className="d-flex align-items-center">
-                        <i className="bi bi-person"></i> <span className="ps-2">John Doe</span>
-                      </div>
-                      <span className="px-3 text-black-50">/</span>
-                      <div className="d-flex align-items-center">
-                        <i className="bi bi-folder2"></i> <span className="ps-2">Politics</span>
-                      </div>
-                    </div>
+              <ul className="list-unstyled">
+                <li>
+                  <i className="bi bi-check2"></i> <span>Enim temporibus maiores eligendi</span>
+                </li>
+                <li>
+                  <i className="bi bi-check2"></i> <span>Ut maxime ut quibusdam quam qui</span>
+                </li>
+                <li>
+                  <i className="bi bi-check2"></i> <span>Officiis aspernatur in officiis</span>
+                </li>
+              </ul>
+            </div>
 
-                    <p>{t.s_description} </p>
+            <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+              <h3>Staque laboriosam modi</h3>
+              <p>Velit eos error et dolor omnis voluptates nobis tenetur sed enim nihil vero qui suscipit ipsum at magni. Ipsa architecto consequatur aliquam</p>
+              <ul className="list-unstyled">
+                <li>
+                  <i className="bi bi-check2"></i> <span>Quis voluptates laboriosam numquam</span>
+                </li>
+                <li>
+                  <i className="bi bi-check2"></i> <span>Treva libero sunt quis veniam ut</span>
+                </li>
+                <li>
+                  <i className="bi bi-check2"></i> <span>Debitis eos est est corrupti</span>
+                </li>
+              </ul>
+            </div>
 
-                    <hr />
-
-                    <Link to="detail" state={t.id} className="readmore stretched-link">
-                      <span>Read More</span>
-                      <i className="bi bi-arrow-right"></i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
+            <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+              <h3>Dignissimos suscipit iste</h3>
+              <p>Molestiae occaecati assumenda quia saepe nobis recusandae at dicta ducimus sequi numquam commodi est in consequatur ea magnam quia itaque</p>
+              <ul className="list-unstyled">
+                <li>
+                  <i className="bi bi-check2"></i> <span>Veritatis qui reprehenderit quis</span>
+                </li>
+                <li>
+                  <i className="bi bi-check2"></i> <span>Accusantium vel numquam sunt minus</span>
+                </li>
+                <li>
+                  <i className="bi bi-check2"></i> <span>Voluptatem pariatur est sationem</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

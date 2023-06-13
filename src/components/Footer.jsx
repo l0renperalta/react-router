@@ -8,20 +8,30 @@ function Footer() {
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="footer-info">
-                <h3>UpConstruction</h3>
+                <h3>Contactenos</h3>
                 <p>
-                  A108 Adam Street <br />
-                  NY 535022, USA
+                  <strong>Address:</strong> Jr. Teodoro Valcárcel 153 Puno – Perú
                   <br />
                   <br />
-                  <strong>Phone:</strong> +1 5589 55488 55
+                  <strong>Phone:</strong> +51 951 524845 (Janette)
                   <br />
-                  <strong>Email:</strong> info@example.com
+                  <strong>Phone:</strong> +51 951 633063 (Marcia)
+                  <br />
+                  <strong>Phone:</strong> +51 969 404075 (Marisol)
+                  <br />
+                  <br />
+                  <strong>Email:</strong> info@chasquitours.com
+                  <br />
+                  <strong>Email:</strong> reservas@chasquitours.com
+                  <br />
+                  <strong>Email:</strong> reservas2@chasquitours.com
+                  <br />
+                  <strong>Skype:</strong> chasquitours
                   <br />
                 </p>
                 <div className="social-links d-flex mt-3">
                   <a href="#" className="d-flex align-items-center justify-content-center">
-                    <i className="bi bi-twitter"></i>
+                    <i className="bi bi-whatsapp"></i>
                   </a>
                   <a href="#" className="d-flex align-items-center justify-content-center">
                     <i className="bi bi-facebook"></i>
@@ -30,92 +40,86 @@ function Footer() {
                     <i className="bi bi-instagram"></i>
                   </a>
                   <a href="#" className="d-flex align-items-center justify-content-center">
-                    <i className="bi bi-linkedin"></i>
+                    <i className="bi bi-tiktok"></i>
+                  </a>
+                  <a href="#" className="d-flex align-items-center justify-content-center">
+                    <i className="bi bi-youtube"></i>
                   </a>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Useful Links</h4>
+              <h4>Paginas</h4>
               <ul>
                 <li>
-                  <a href="#">Home</a>
+                  <a href="#">Inicio</a>
                 </li>
                 <li>
-                  <a href="#">About us</a>
+                  <a href="#">Nosotros</a>
                 </li>
                 <li>
-                  <a href="#">Services</a>
+                  <a href="#">Ofertas</a>
                 </li>
                 <li>
-                  <a href="#">Terms of service</a>
+                  <a href="#">Paquetes</a>
                 </li>
                 <li>
-                  <a href="#">Privacy policy</a>
+                  <a href="#">Vuelos</a>
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Our Services</h4>
+              <h4>Peru</h4>
               <ul>
                 <li>
-                  <a href="#">Web Design</a>
+                  <a href="#">Cusco</a>
                 </li>
                 <li>
-                  <a href="#">Web Development</a>
+                  <a href="#">Arequipa</a>
                 </li>
                 <li>
-                  <a href="#">Product Management</a>
+                  <a href="#">Puno</a>
                 </li>
                 <li>
-                  <a href="#">Marketing</a>
+                  <a href="#">Iquitos</a>
                 </li>
                 <li>
-                  <a href="#">Graphic Design</a>
+                  <a href="#">Ica</a>
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Hic solutasetp</h4>
+              <h4>Bolivia</h4>
               <ul>
                 <li>
-                  <a href="#">Molestiae accusamus iure</a>
+                  <a href="#">La paz</a>
                 </li>
                 <li>
-                  <a href="#">Excepturi dignissimos</a>
-                </li>
-                <li>
-                  <a href="#">Suscipit distinctio</a>
-                </li>
-                <li>
-                  <a href="#">Dilecta</a>
-                </li>
-                <li>
-                  <a href="#">Sit quas consectetur</a>
+                  <a href="#">Salar de uyuni</a>
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-2 col-md-3 footer-links">
-              <h4>Nobis illum</h4>
+              <h4>Idiomas</h4>
               <ul>
                 <li>
-                  <a href="#">Ipsam</a>
+                  <a href="#">Ingles</a>
                 </li>
                 <li>
-                  <a href="#">Laudantium dolorum</a>
+                  <a href="#">Español</a>
                 </li>
                 <li>
-                  <a href="#">Dinera</a>
+                  <a href="#">Portugues</a>
                 </li>
                 <li>
-                  <a href="#">Trodelas</a>
+                  <a href="#">Aleman</a>
                 </li>
                 <li>
-                  <a href="#">Flexo</a>
+                  <a href="#">Frances</a>
                 </li>
               </ul>
             </div>

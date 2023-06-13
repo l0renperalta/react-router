@@ -28,21 +28,11 @@ function Peru() {
                   <div className="post-content d-flex flex-column">
                     <h3 className="post-title">{t.title}</h3>
 
-                    <div className="meta d-flex align-items-center">
-                      <div className="d-flex align-items-center">
-                        <i className="bi bi-person"></i> <span className="ps-2">John Doe</span>
-                      </div>
-                      <span className="px-3 text-black-50">/</span>
-                      <div className="d-flex align-items-center">
-                        <i className="bi bi-folder2"></i> <span className="ps-2">Politics</span>
-                      </div>
-                    </div>
-
                     <p>{t.s_description} </p>
 
                     <hr />
 
-                    <Link to="destinations" state={t.destinations} className="readmore stretched-link">
+                    <Link to="destinations" state={t.id} className="readmore stretched-link">
                       <span>Read More</span>
                       <i className="bi bi-arrow-right"></i>
                     </Link>

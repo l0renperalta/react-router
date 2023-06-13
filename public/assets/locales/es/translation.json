@@ -32,15 +32,13 @@
           "id": 1,
           "title": "Machu Picchu",
           "image": "src/assets/img/golden/MACHUPICCHU 5.jpg",
-          "s_description": "Machu Picchu, ubicado en las montañas de los Andes en Perú, es una renombrada ciudadela antigua inca que cautiva a los visitantes con su impresionante belleza e intrigante historia.",
-          "l_description": "Machu Picchu, ubicado en las montañas de los Andes en Perú, es una renombrada ciudadela antigua inca que cautiva a los visitantes con su impresionante belleza e intrigante historia. Este sitio, declarado Patrimonio de la Humanidad por la UNESCO, se encuentra en lo alto del río Urubamba, rodeado de exuberantes montañas verdes y picos cubiertos de neblina. Una visita a Machu Picchu revela la notable maestría arquitectónica de los incas, con sus impresionantes estructuras de piedra, terrazas intrincadas y enigmáticos templos. Explorar las ruinas te sumerge en la atmósfera mística de este lugar sagrado y te permite contemplar las impresionantes vistas panorámicas de los paisajes circundantes. Además de su importancia histórica, Machu Picchu ofrece oportunidades para realizar caminatas aventureras, incluyendo el famoso Camino Inca, que te permite conectarte con la naturaleza y experimentar la grandeza de esta antigua maravilla."
+          "description": "Machu Picchu, ubicado en las montañas de los Andes en Perú, es una renombrada ciudadela antigua inca que cautiva a los visitantes con su impresionante belleza e intrigante historia. Este sitio, declarado Patrimonio de la Humanidad por la UNESCO, se encuentra en lo alto del río Urubamba, rodeado de exuberantes montañas verdes y picos cubiertos de neblina. Una visita a Machu Picchu revela la notable maestría arquitectónica de los incas, con sus impresionantes estructuras de piedra, terrazas intrincadas y enigmáticos templos. Explorar las ruinas te sumerge en la atmósfera mística de este lugar sagrado y te permite contemplar las impresionantes vistas panorámicas de los paisajes circundantes. Además de su importancia histórica, Machu Picchu ofrece oportunidades para realizar caminatas aventureras, incluyendo el famoso Camino Inca, que te permite conectarte con la naturaleza y experimentar la grandeza de esta antigua maravilla."
         },
         {
           "id": 2,
           "title": "Choquequirao",
           "image": "src/assets/img/golden/CHOQUEQUIRAO3.jpg",
-          "s_description": "Choquequirao, ubicado en la accidentada cordillera de Vilcabamba en Perú, es un sitio arqueológico que revela los vestigios de una antigua ciudad inca.",
-          "l_description": "Choquequirao, ubicado en la accidentada cordillera de Vilcabamba en Perú, es un sitio arqueológico que revela los vestigios de una antigua ciudad inca. A menudo referido como la 'ciudad hermana' de Machu Picchu, Choquequirao encanta a los visitantes con su encanto remoto e inalterado. Solo se puede acceder a pie, y el viaje hacia Choquequirao recompensa a los aventureros con vistas impresionantes de cañones profundos, picos cubiertos de nieve y exuberantes valles. Explorar las extensas terrazas, plataformas ceremoniales y estructuras de piedra de Choquequirao revela los notables logros ingenieriles y arquitectónicos de los incas. La ubicación aislada del sitio agrega a su atractivo, permitiendo a los visitantes sumergirse en la tranquilidad del entorno natural circundante. Una caminata hacia Choquequirao ofrece una oportunidad única para conectarse con el pasado antiguo mientras se disfruta de la belleza de la naturaleza peruana."
+          "description": "Choquequirao, ubicado en la accidentada cordillera de Vilcabamba en Perú, es un sitio arqueológico que revela los vestigios de una antigua ciudad inca. A menudo referido como la 'ciudad hermana' de Machu Picchu, Choquequirao encanta a los visitantes con su encanto remoto e inalterado. Solo se puede acceder a pie, y el viaje hacia Choquequirao recompensa a los aventureros con vistas impresionantes de cañones profundos, picos cubiertos de nieve y exuberantes valles. Explorar las extensas terrazas, plataformas ceremoniales y estructuras de piedra de Choquequirao revela los notables logros ingenieriles y arquitectónicos de los incas. La ubicación aislada del sitio agrega a su atractivo, permitiendo a los visitantes sumergirse en la tranquilidad del entorno natural circundante. Una caminata hacia Choquequirao ofrece una oportunidad única para conectarse con el pasado antiguo mientras se disfruta de la belleza de la naturaleza peruana."
         }
       ],
       "id": 1,
@@ -53,17 +51,66 @@
       "destinations": [
         {
           "id": 1,
-          "title": "Lago Titicaca",
+          "title": "LAS ISLAS FLOTANTES DE LOS UROS",
           "image": "src/assets/img/golden/LOS UROS 9.jpg",
-          "s_description": "El lago Titicaca, situado en las montañas de los Andes en la frontera entre Perú y Bolivia, es el lago navegable más alto del mundo y un lugar de gran importancia cultural.",
-          "l_description": "El lago Titicaca, situado en las montañas de los Andes en la frontera entre Perú y Bolivia, es el lago navegable más alto del mundo y un lugar de gran importancia cultural. Con su vasta extensión de agua azul profundo y sus impresionantes vistas panorámicas, el lago Titicaca ha sido considerado sagrado por los antiguos incas y es reverenciado por las comunidades indígenas que lo rodean. Un viaje al lago Titicaca te permite explorar las islas flotantes de los Uros, construidas a partir de totora, una planta acuática, y descubrir la forma de vida tradicional de esta comunidad ancestral. También puedes visitar la Isla Taquile, conocida por su artesanía textil excepcional y sus tradiciones culturales únicas. Además, puedes disfrutar de paseos en bote por el lago, admirar las maravillas naturales y experimentar la rica herencia cultural de la región mientras te sumerges en su entorno tranquilo y sereno."
+          "description": "Los Uros, un pueblo flotante Ubicado dentro de la Bahía del Lago Titicaca a unos 6 Km aprox. de la ciudad de Puno. (25 a 30 min. de navegación en una lancha a motor), actualmente existen más de 100 Islas flotantes hechas a base de la planta de totora. Según la historia, los Uros fueron los habitantes más antiguos de los grupos étnicos que poblaron la región de Puno, esta comunidad de lengua Aimara mantienen la tradición viva; como la pesca artesanal, caza y disecado de aves silvestres, la recolección de huevos, los hombres son expertos constructores y conductores de balsas de totora y las mujeres hábiles tejedoras de artesanías textiles y manualidades. La planta de Totora. Es muy importante para  este pueblo ancestral de los Uros, ya que utilizan para la construcción de sus habitaciones, transporte (balsas), medicina natural y como combustible para preparar sus alimentos.",
+          "days": [],
+          "itinerary": [
+            ["08:45", "Recojo de hoteles del cercado de Puno y traslado al puerto del lago Titicaca"],
+            ["09:00", "Salida de la embarcación con destino a las islas de Los Uros"],
+            ["09:30", "Visita a las islas flotantes de Los Uros (2 islas)"],
+            ["12:15", "Retorno a la ciudad de Puno y traslado a hoteles del centro de ciudad o estación de bus."]
+          ],
+          "includes": [
+            "Entradas a las islas de los Uros.",
+            "Guía Español/Inglés.",
+            "Traslados desde hotel - puerto - hotel (sólo los hoteles situados en el centro)",
+            "Barco a motor (con SSHH y asientos tipo bus)."
+          ],
+          "notIncludes": [
+            "Gastos Extras.",
+            "Uso de baños públicos.",
+            "Pago extra por recojo en los siguientes hoteles: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka Pago extra de $5USD por persona"
+          ],
+          "recomendation": [
+            "Llevar ropa ligera y abrigada (casaca, chompa, abrigo, guantes y gorros)",
+            "Zapatillas o zapatos para las visitas y caminatas",
+            "Gorra o sombrero de sol",
+            "Lentes de sol, Protector solar, crema para labios.",
+            "Impermeable para posibles lluvias."
+          ]
         },
         {
           "id": 2,
-          "title": "Amantani",
+          "title": "ISLA DE TAQUILE",
           "image": "src/assets/img/golden/ISLA AMANTANI 40 MF.jpg",
-          "s_description": "La isla Amantani, ubicada en el corazón del lago Titicaca, es un refugio pintoresco que ofrece una experiencia cultural única.",
-          "l_description": "La isla Amantani, ubicada en el corazón del lago Titicaca, es un refugio pintoresco que ofrece una experiencia cultural única. Esta isla, conocida por su belleza tranquila y su estilo de vida tradicional, alberga a comunidades indígenas que hablan quechua. Visitar Amantani te permite sumergirte en el auténtico estilo de vida de los habitantes de la isla, quienes te reciben con calidez y comparten sus antiguas costumbres y tradiciones. Aquí, puedes presenciar la colorida vestimenta tradicional, participar en festividades vibrantes y saborear la deliciosa cocina local. Explorar los campos escalonados, pasear por los caminos empedrados y hacer senderismo hacia los puntos más altos de la isla ofrece vistas panorámicas del lago y las montañas circundantes. Pasar la noche con una familia anfitriona local brinda una visión íntima de la vida cotidiana de los habitantes de la isla y ofrece una experiencia realmente inmersiva."
+          "description": "Ubicado a 45 Km. de la ciudad de Puno tiene aprox. Tiene 2500 habitantes, son de origen quechua y se caracterizan por su artesanía textil realizado por hombres y mujeres de todas las edades, cuyos productos son usados por todos los miembros de la comunidad. La tradición de tejer en la isla de Taquile se remonta a las antiguas civilizaciones Incas, Pukaras y Kollas, por lo que mantiene vivos los elementos de las culturas andinas prehispánicas. Los Taquileños han demostrado técnicas avanzadas en el arte Textil, por lo que son reconocidos por la UNESCO como Patrimonio Cultural Inmaterial de la Humanidad (originalmente proclamado en el 2005) Además se dedican a otras actividades como  son: la pesca, la agricultura y muy poco a la ganadería. También ofrecen servicios de Restaurantes, hospedajes rurales; (viviendas típicas) esta actividad hoy en día ya es parte de su sustento económico.",
+          "days": [
+            "A las 6:50 a. m. Recojo de pasajeros de hotel (cercado de Puno) y trasladado al puerto del Lago Titicaca. A las 7:15 a.m. salida de embarcación con destino a las islas flotantes de los Uros (viaje 30 min. aprox.), visitaremos dos Islas que aún mantienen su cultura originaria, nuestro guía explicará sus costumbres. Luego continuamos con el viaje a la isla Taquile, (1hrs y 30 min. aprox.), una vez en el puerto de Taquile, la caminata hacia el pueblo es de 45 minutos, aquí tendremos un tiempo libre de 30 minutos para observar tejidos en el mercadillo de la isla Taquile. El almuerzo es en un restaurante típico del lugar con vista al Lago, luego las familias taquileñas realizan demostraciones de sus costumbres y actividades cotidianas. Terminado la visita, abordamos nuevamente a la embarcación de retorno a la ciudad de Puno, arribo al puerto 4:00 p.m. Aprox. luego trasladado a hoteles."
+          ],
+          "itinerary": [
+            ["06:45", "Recojo de hoteles del cercado de Puno y traslado al puerto del lago Titicaca"],
+            ["07:15", "Salida de la embarcación con destino a las islas de Los Uros"],
+            ["07:45", "Visita a dos Islas Flotantes de Los Uros"],
+            ["09:30", "Salida a la Isla Taquile"],
+            ["11:00", "Arribo a la parte sur de Taquile, bienvenida y demostración de tejidos por la gente local"],
+            ["12:00", "Almuerzo típico de la zona y tiempo libre para explorar el lugar"],
+            ["14:00", "Salida de la embarcación a la ciudad de Puno"],
+            ["15:45", "Arribo al puerto y traslado a hoteles del centro de ciudad o estación de bus"]
+          ],
+          "includes": [
+            "Entradas a las islas de los Uros y Taquile",
+            "Guía Español/Inglés.",
+            "Traslados desde hotel - puerto - hotel (sólo los hoteles situados en el centro)",
+            "Barco a motor (con SSHH y asientos tipo bus)",
+            "Almuerzo "
+          ],
+          "notIncludes": [
+            "Gastos Extras",
+            "Uso de baños públicos.",
+            "Pago extra por recojo en los siguientes hoteles: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka Pago extra de $5USD por persona"
+          ],
+          "recomendation": []
         }
       ],
       "id": 2,

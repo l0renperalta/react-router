@@ -9,13 +9,8 @@ function Destinations() {
 
   if (!ready) return 'loading translations...';
 
-  // const tours = t(`tours`, { returnObjects: true });
-  // const index = tours.findIndex((t) => t.id === location.state);
-  // const data = t(`tours.${index}`, { returnObjects: true });
-
-  const data = location.state;
-
-  console.log(data);
+  const id = location.state;
+  const data = t(`peru.${id - 1}.destinations`, { returnObjects: true });
 
   return (
     <main id="main">
@@ -49,7 +44,7 @@ function Destinations() {
 
                     <hr />
 
-                    <Link to="detail" state={t} className="readmore stretched-link">
+                    <Link to="detail" state={{ place: id, destination: t.id }} className="readmore stretched-link">
                       <span>Read More</span>
                       <i className="bi bi-arrow-right"></i>
                     </Link>
