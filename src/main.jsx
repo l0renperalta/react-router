@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import i18n from 'i18next';
@@ -25,7 +25,16 @@ i18n
   .init({
     fallbackLng: 'en',
     detection: {
-      order: ['cookie', 'htmlTag', 'querystring', 'localStorage', 'sessionStorage', 'navigator', 'path', 'subdomain'],
+      order: [
+        'cookie',
+        'htmlTag',
+        'querystring',
+        'localStorage',
+        'sessionStorage',
+        'navigator',
+        'path',
+        'subdomain',
+      ],
       caches: ['cookie'],
     },
     backend: {

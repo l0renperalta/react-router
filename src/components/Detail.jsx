@@ -65,7 +65,11 @@ function Detail() {
                     <div className="tab-content">
                       <div className="tab-pane active show" id="tab-1">
                         <div className="row">
-                          <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                          <div
+                            className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                          >
                             <h3>{data.title}</h3>
                             <p className="fst-italic">{data.description}</p>
                           </div>
@@ -74,7 +78,11 @@ function Detail() {
 
                       <div className="tab-pane" id="tab-2">
                         <div className="row">
-                          <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                          <div
+                            className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                          >
                             <table className="table">
                               <thead className="thead-light">
                                 <tr>
@@ -97,7 +105,11 @@ function Detail() {
 
                       <div className="tab-pane" id="tab-3">
                         <div className="row">
-                          <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                          <div
+                            className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                          >
                             <h4>Incluye</h4>
                             <ul>
                               {data.includes.map((e, index) => (
@@ -121,7 +133,11 @@ function Detail() {
 
                       <div className="tab-pane" id="tab-4">
                         <div className="row">
-                          <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                          <div
+                            className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                          >
                             <ul>
                               {data.recomendation.map((e, index) => (
                                 <li key={index}>
@@ -139,12 +155,17 @@ function Detail() {
                 <div className="testimonial-item">
                   <p>
                     <i className="bi bi-quote quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster
-                    fugiat irure amet legam anim culpa.
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
+                    cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
+                    legam anim culpa.
                     <i className="bi bi-quote quote-icon-right"></i>
                   </p>
                   <div>
-                    <img src="/assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
+                    <img
+                      src="/assets/img/testimonials/testimonials-2.jpg"
+                      className="testimonial-img"
+                      alt=""
+                    />
                     <h3>Sara Wilsson</h3>
                     <h4>Designer</h4>
                   </div>
