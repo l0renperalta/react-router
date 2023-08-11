@@ -7,11 +7,19 @@
       "destinations": [
         {
           "title": "Cusco",
-          "destinations": ["Machu Picchu", "Choquequirao"]
+          "destinations": [
+            { "title": "Machu Picchu", "id": 1 },
+            { "title": "Choquequirao", "id": 2 }
+          ],
+          "id": 1
         },
         {
           "title": "Puno",
-          "destinations": ["Lago Titicaca", "Amantani"]
+          "destinations": [
+            { "title": "Lago Titicaca", "id": 1 },
+            { "title": "Isla de taquile", "id": 2 }
+          ],
+          "id": 2
         }
       ]
     },
@@ -32,13 +40,23 @@
           "id": 1,
           "title": "Machu Picchu",
           "image": "src/assets/img/golden/MACHUPICCHU 5.jpg",
-          "description": "Machu Picchu, ubicado en las montañas de los Andes en Perú, es una renombrada ciudadela antigua inca que cautiva a los visitantes con su impresionante belleza e intrigante historia. Este sitio, declarado Patrimonio de la Humanidad por la UNESCO, se encuentra en lo alto del río Urubamba, rodeado de exuberantes montañas verdes y picos cubiertos de neblina. Una visita a Machu Picchu revela la notable maestría arquitectónica de los incas, con sus impresionantes estructuras de piedra, terrazas intrincadas y enigmáticos templos. Explorar las ruinas te sumerge en la atmósfera mística de este lugar sagrado y te permite contemplar las impresionantes vistas panorámicas de los paisajes circundantes. Además de su importancia histórica, Machu Picchu ofrece oportunidades para realizar caminatas aventureras, incluyendo el famoso Camino Inca, que te permite conectarte con la naturaleza y experimentar la grandeza de esta antigua maravilla."
+          "description": "Machu Picchu, ubicado en las montañas de los Andes en Perú, es una renombrada ciudadela antigua inca que cautiva a los visitantes con su impresionante belleza e intrigante historia. Este sitio, declarado Patrimonio de la Humanidad por la UNESCO, se encuentra en lo alto del río Urubamba, rodeado de exuberantes montañas verdes y picos cubiertos de neblina. Una visita a Machu Picchu revela la notable maestría arquitectónica de los incas, con sus impresionantes estructuras de piedra, terrazas intrincadas y enigmáticos templos. Explorar las ruinas te sumerge en la atmósfera mística de este lugar sagrado y te permite contemplar las impresionantes vistas panorámicas de los paisajes circundantes. Además de su importancia histórica, Machu Picchu ofrece oportunidades para realizar caminatas aventureras, incluyendo el famoso Camino Inca, que te permite conectarte con la naturaleza y experimentar la grandeza de esta antigua maravilla.",
+          "days": [],
+          "itinerary": [["08:45", "Recojo de hoteles del cercado de Puno y traslado al puerto del lago Titicaca"]],
+          "includes": ["Entradas a las islas de los Uros."],
+          "notIncludes": ["Gastos Extras."],
+          "recomendation": ["Impermeable para posibles lluvias."]
         },
         {
-          "id": 2,
+          "id": 1,
           "title": "Choquequirao",
           "image": "src/assets/img/golden/CHOQUEQUIRAO3.jpg",
-          "description": "Choquequirao, ubicado en la accidentada cordillera de Vilcabamba en Perú, es un sitio arqueológico que revela los vestigios de una antigua ciudad inca. A menudo referido como la 'ciudad hermana' de Machu Picchu, Choquequirao encanta a los visitantes con su encanto remoto e inalterado. Solo se puede acceder a pie, y el viaje hacia Choquequirao recompensa a los aventureros con vistas impresionantes de cañones profundos, picos cubiertos de nieve y exuberantes valles. Explorar las extensas terrazas, plataformas ceremoniales y estructuras de piedra de Choquequirao revela los notables logros ingenieriles y arquitectónicos de los incas. La ubicación aislada del sitio agrega a su atractivo, permitiendo a los visitantes sumergirse en la tranquilidad del entorno natural circundante. Una caminata hacia Choquequirao ofrece una oportunidad única para conectarse con el pasado antiguo mientras se disfruta de la belleza de la naturaleza peruana."
+          "description": "Choquequirao, ubicado en la accidentada cordillera de Vilcabamba en Perú, es un sitio arqueológico que revela los vestigios de una antigua ciudad inca. A menudo referido como la 'ciudad hermana' de Machu Picchu, Choquequirao encanta a los visitantes con su encanto remoto e inalterado. Solo se puede acceder a pie, y el viaje hacia Choquequirao recompensa a los aventureros con vistas impresionantes de cañones profundos, picos cubiertos de nieve y exuberantes valles. Explorar las extensas terrazas, plataformas ceremoniales y estructuras de piedra de Choquequirao revela los notables logros ingenieriles y arquitectónicos de los incas. La ubicación aislada del sitio agrega a su atractivo, permitiendo a los visitantes sumergirse en la tranquilidad del entorno natural circundante. Una caminata hacia Choquequirao ofrece una oportunidad única para conectarse con el pasado antiguo mientras se disfruta de la belleza de la naturaleza peruana.",
+          "days": [],
+          "itinerary": [["08:45", "Recojo de hoteles del cercado de Puno y traslado al puerto del lago Titicaca"]],
+          "includes": ["Entradas a las islas de los Uros."],
+          "notIncludes": ["Gastos Extras."],
+          "recomendation": ["Impermeable para posibles lluvias."]
         }
       ],
       "id": 1,

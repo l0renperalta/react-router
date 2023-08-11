@@ -1,8 +1,12 @@
-import React from 'react';
+import { useEffect } from 'react';
 import Banner from '../components/Banner';
 import ServicesComponent from '../components/ServicesComponent';
+import template from '../template';
 
 function About() {
+  useEffect(() => {
+    template();
+  }, []);
   return (
     <main id="main">
       <Banner title={location.pathname.split('/')[1]} />

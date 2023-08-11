@@ -1,10 +1,4 @@
-/**
- * Template Name: UpConstruction - v1.2.1
- * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
-document.addEventListener('DOMContentLoaded', () => {
+export default function templateJavascript() {
   ('use strict');
 
   /**
@@ -210,4 +204,4 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('load', () => {
     aos_init();
   });
-});
+}

@@ -10,6 +10,7 @@ function Destinations() {
   if (!ready) return 'loading translations...';
 
   const id = location.state;
+
   const data = t(`peru.${id - 1}.destinations`, { returnObjects: true });
 
   return (
