@@ -1,7 +1,5 @@
 {
   "nav": [
-    "Home",
-    "About Us",
     {
       "title": "Peru",
       "destinations": [
@@ -16,18 +14,19 @@
         {
           "title": "Puno",
           "destinations": [
-            { "title": "Lago Titicaca", "id": 1 },
+            { "title": "Titicaca Lake", "id": 1 },
             { "title": "Taquile island", "id": 2 }
           ],
           "id": 2
         }
       ]
     },
+    "Home",
+    "About Us",
     "Bolivia",
     "Offers",
     "Packages",
     "Flights",
-    "Bolivia",
     "Contact Us"
   ],
   "title": "Welcome to Chasqui Tours",
@@ -54,7 +53,14 @@
           "description": "Choquequirao, situated in the rugged Vilcabamba mountain range in Peru, is an archaeological site that reveals the remnants of an ancient Inca city. Often referred to as the 'sister city' of Machu Picchu, Choquequirao enchants visitors with its remote and unspoiled charm. It can only be accessed by foot, and the journey to Choquequirao rewards adventurers with breathtaking views of deep canyons, snow-covered peaks, and lush valleys. Exploring Choquequirao's extensive terraces, ceremonial platforms, and stone structures unveils the remarkable engineering and architectural achievements of the Incas. The site's isolated location adds to its allure, allowing visitors to immerse themselves in the tranquility of the surrounding natural environment. A hike to Choquequirao offers a unique opportunity to connect with ancient history while enjoying the beauty of the Peruvian landscape.",
           "days": [],
           "itinerary": [["08:45", "Pickup from hotels in downtown Puno and transfer to Lake Titicaca port"]],
-          "includes": ["Entrance to the Uros Islands."],
+          "includes": [
+            "Transporte Cusco - Fulawasi - Cusco: El tour cubre el transporte desde tu hotel en Cusco (casco urbano) hasta el punto de inicio de la caminata en Fulawasi, y luego de regreso a la ciudad de Cusco. Si te encuentras en una zona alejada o en un Airbnb, se acordará un punto de encuentro conveniente.",
+            "01 desayuno + bebidas calientes: Se proporcionará un delicioso desayuno andino en Cusipata antes de comenzar la caminata. Además, se incluirán bebidas calientes, como té o café, para disfrutar durante el desayuno.",
+            "01 almuerzo + bebidas calientes: Después de completar la caminata y explorar la Montaña de Siete Colores, se ofrecerá un almuerzo andino en Cusipata. También se incluirán bebidas calientes para acompañar la comida.",
+            "Entrada a la Montaña de 7 Colores: El costo de la entrada a la Montaña de Siete Colores (Apu Vinicunca) está incluido en el tour. Esta entrada permite acceder al área protegida donde se encuentra esta maravilla natural.",
+            "Guía profesional: Durante todo el recorrido, contarás con un guía profesional que te acompañará y te brindará información sobre la Montaña de Siete Colores, el Nevado Ausangate y la cultura local.",
+            "Equipo de primeros auxilios: Para garantizar la seguridad de los participantes, el tour incluirá un equipo de primeros auxilios que estará disponible en caso de ser necesario."
+          ],
           "notIncludes": ["Extra expenses."],
           "recomendation": ["Rainproof gear for possible rain."]
         }

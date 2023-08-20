@@ -1,7 +1,5 @@
 {
   "nav": [
-    "Inicio",
-    "Nosotros",
     {
       "title": "Peru",
       "destinations": [
@@ -23,11 +21,12 @@
         }
       ]
     },
+    "Inicio",
+    "Nosotros",
     "Bolivia",
     "Ofertas",
     "Paquetes",
     "Vuelos",
-    "Bolivia",
     "Contactanos"
   ],
   "title": "Bienvenido a Chasqui Tours",
@@ -38,13 +37,24 @@
       "destinations": [
         {
           "id": 1,
-          "title": "Machu Picchu",
+          "title": "TOUR MONTAÑA 7 COLORES",
           "image": "src/assets/img/golden/MACHUPICCHU 5.jpg",
-          "description": "Machu Picchu, ubicado en las montañas de los Andes en Perú, es una renombrada ciudadela antigua inca que cautiva a los visitantes con su impresionante belleza e intrigante historia. Este sitio, declarado Patrimonio de la Humanidad por la UNESCO, se encuentra en lo alto del río Urubamba, rodeado de exuberantes montañas verdes y picos cubiertos de neblina. Una visita a Machu Picchu revela la notable maestría arquitectónica de los incas, con sus impresionantes estructuras de piedra, terrazas intrincadas y enigmáticos templos. Explorar las ruinas te sumerge en la atmósfera mística de este lugar sagrado y te permite contemplar las impresionantes vistas panorámicas de los paisajes circundantes. Además de su importancia histórica, Machu Picchu ofrece oportunidades para realizar caminatas aventureras, incluyendo el famoso Camino Inca, que te permite conectarte con la naturaleza y experimentar la grandeza de esta antigua maravilla.",
+          "description": "La Montaña de Siete Colores, o Vinicunca, es un destino impresionante y altamente visitado en Perú. Ubicada aproximadamente a 100 km al sureste de la ciudad de Cusco, esta montaña ha ganado una gran popularidad debido a su singularidad y belleza, lo que la llevó a ser reconocida por la revista National Geographic como uno de los \"100 lugares que se deben conocer antes de morir\".\nVinicunca se encuentra en una cumbre situada a una asombrosa altitud de 5,100 metros sobre el nivel del mar. Específicamente, está al pie del Nevado Ausangate, el pico más grande de la región de Cusco y una montaña con una gran relevancia cultural y espiritual para las comunidades locales. La montaña debe su nombre de \"Siete Colores\" debido a las diversas tonalidades que se pueden apreciar en sus laderas y cumbre. Los colores notables incluyen rojo, morado, verde, amarillo, rosado y otras variaciones, creando un paisaje único y cautivador. Este fenómeno se originó por la presencia de diferentes minerales en el suelo, que se expusieron después de que el hielo que alguna vez cubría la montaña se derritió.\nAdemás de su impresionante belleza, la Montaña de Siete Colores ofrece una rica biodiversidad. Durante la caminata hacia esta maravilla natural, los visitantes pueden tener la oportunidad de observar auquénidos, como llamas, alpacas y vicuñas. Estos animales son nativos de la región andina y forman parte importante del ecosistema local.\n¡Disfruta de 1 día de caminata a la Montaña de Siete Colores en Perú, es una oportunidad única para conectarse con la belleza natural de los Andes y experimentar un paisaje impresionante y una rica biodiversidad. Si tienes la oportunidad de realizar esta caminata, te garantizamos sin duda será una experiencia inolvidable que quedará grabada en tu memoria!",
           "days": [],
           "itinerary": [["08:45", "Recojo de hoteles del cercado de Puno y traslado al puerto del lago Titicaca"]],
-          "includes": ["Entradas a las islas de los Uros."],
-          "notIncludes": ["Gastos Extras."],
+          "includes": [
+            "Transporte Cusco - Fulawasi - Cusco: El tour cubre el transporte desde tu hotel en Cusco (casco urbano) hasta el punto de inicio de la caminata en Fulawasi, y luego de regreso a la ciudad de Cusco. Si te encuentras en una zona alejada o en un Airbnb, se acordará un punto de encuentro conveniente.",
+            "01 desayuno + bebidas calientes: Se proporcionará un delicioso desayuno andino en Cusipata antes de comenzar la caminata. Además, se incluirán bebidas calientes, como té o café, para disfrutar durante el desayuno.",
+            "01 almuerzo + bebidas calientes: Después de completar la caminata y explorar la Montaña de Siete Colores, se ofrecerá un almuerzo andino en Cusipata. También se incluirán bebidas calientes para acompañar la comida.",
+            "Entrada a la Montaña de 7 Colores: El costo de la entrada a la Montaña de Siete Colores (Apu Vinicunca) está incluido en el tour. Esta entrada permite acceder al área protegida donde se encuentra esta maravilla natural.",
+            "Guía profesional: Durante todo el recorrido, contarás con un guía profesional que te acompañará y te brindará información sobre la Montaña de Siete Colores, el Nevado Ausangate y la cultura local.",
+            "Equipo de primeros auxilios: Para garantizar la seguridad de los participantes, el tour incluirá un equipo de primeros auxilios que estará disponible en caso de ser necesario."
+          ],
+          "notIncludes": [
+            "Alimentación, excepto lo mencionado: Aunque el tour incluye el desayuno y el almuerzo andino mencionados en el itinerario, cualquier otra comida o bebida adicional durante el recorrido no está incluida.",
+            "Caballos (puede rentarlos por 70 PEN): Durante la caminata hacia la Montaña de Siete Colores, existe la opción de alquilar caballos para aquellos que deseen realizar parte o todo el trayecto montados. El costo del alquiler de los caballos no está incluido en el precio del tour y deberá ser pagado por separado en caso de que desees utilizar este servicio.",
+            "Gastos extras (propinas u otros): Cualquier gasto adicional, como propinas para el guía o el personal de apoyo, compras de souvenirs u otros servicios o actividades no especificados en el tour, no están incluidos en el precio y deberán ser asumidos por el participante."
+          ],
           "recomendation": ["Impermeable para posibles lluvias."]
         },
         {
@@ -54,7 +64,7 @@
           "description": "Choquequirao, ubicado en la accidentada cordillera de Vilcabamba en Perú, es un sitio arqueológico que revela los vestigios de una antigua ciudad inca. A menudo referido como la 'ciudad hermana' de Machu Picchu, Choquequirao encanta a los visitantes con su encanto remoto e inalterado. Solo se puede acceder a pie, y el viaje hacia Choquequirao recompensa a los aventureros con vistas impresionantes de cañones profundos, picos cubiertos de nieve y exuberantes valles. Explorar las extensas terrazas, plataformas ceremoniales y estructuras de piedra de Choquequirao revela los notables logros ingenieriles y arquitectónicos de los incas. La ubicación aislada del sitio agrega a su atractivo, permitiendo a los visitantes sumergirse en la tranquilidad del entorno natural circundante. Una caminata hacia Choquequirao ofrece una oportunidad única para conectarse con el pasado antiguo mientras se disfruta de la belleza de la naturaleza peruana.",
           "days": [],
           "itinerary": [["08:45", "Recojo de hoteles del cercado de Puno y traslado al puerto del lago Titicaca"]],
-          "includes": ["Entradas a las islas de los Uros."],
+          "includes": ["Entradas a las islas de los Urosssss."],
           "notIncludes": ["Gastos Extras."],
           "recomendation": ["Impermeable para posibles lluvias."]
         }

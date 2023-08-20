@@ -25,8 +25,12 @@ function Header() {
   const { t, i18n, ready } = useTranslation();
 
   if (!ready) return 'loading translations...';
-
   const nav = t('nav', { returnObjects: true });
+
+  const peruDestionatios = nav[0].destinations;
+  console.log('nav elements', nav);
+  console.log('peru arrary ', nav[0]);
+  console.log(typeof peruDestionatios);
 
   return (
     <header id="header" className="header d-flex align-items-center">
@@ -41,28 +45,28 @@ function Header() {
           <ul>
             <li>
               <NavLink to="/" activeclassname="active">
-                {nav[0]}
+                {nav[1]}
               </NavLink>
             </li>
             <li>
               <NavLink to="about" activeclassname="active">
-                {nav[1]}
+                {nav[2]}
               </NavLink>
             </li>
             <li className="dropdown">
               <NavLink to="peru" activeclassname="active" className="bi bi-chevron-down dropdown-indicator">
-                {nav[2].title}
+                {nav[0].title}
               </NavLink>
               <ul>
-                {nav[2].destinations.map((element, index) => (
-                  <li className="dropdown" key={index}>
-                    <Link to={`${nav[2].title.toLowerCase()}/destinations`} state={element.id}>
-                      <span>{element.title}</span> <i className="bi bi-chevron-down dropdown-indicator"></i>
+                {peruDestionatios?.map((peruElement) => (
+                  <li className="dropdown" key={peruElement.id}>
+                    <Link to={`${nav[0].title.toLowerCase()}/destinations`} state={peruElement.id}>
+                      <span>{peruElement.title}</span> <i className="bi bi-chevron-down dropdown-indicator"></i>
                     </Link>
                     <ul>
-                      {element.destinations.map((p, index) => (
+                      {peruElement.destinations.map((p) => (
                         <li key={p.id}>
-                          <Link to={`${nav[2].title.toLowerCase()}/destinations/detail`} state={{ place: element.id, destination: p.id }}>
+                          <Link to={`${nav[0].title.toLowerCase()}/destinations/detail`} state={{ place: peruElement.id, destination: p.id }}>
                             {p.title}
                           </Link>
                         </li>
@@ -92,10 +96,9 @@ function Header() {
                 {nav[6]}
               </NavLink>
             </li>
-
             <li>
               <NavLink to="contact" activeclassname="active">
-                {nav[8]}
+                {nav[7]}
               </NavLink>
             </li>
 
@@ -108,11 +111,11 @@ function Header() {
                 <i className="bi bi-chevron-down dropdown-indicator"></i>
               </a>
               <ul>
-                {languages.map(({ name, code, country_code }) => (
-                  <li className="dropdown" style={{ cursor: 'pointer' }} onClick={() => i18next.changeLanguage(code)} key={country_code}>
+                {languages?.map((language) => (
+                  <li className="dropdown" style={{ cursor: 'pointer' }} onClick={() => i18next.changeLanguage(language.code)} key={language.country_code}>
                     <a>
-                      <span className={`flag-icon flag-icon-${country_code}`}></span>
-                      {name}
+                      <span className={`flag-icon flag-icon-${language.country_code}`}></span>
+                      {language.name}
                     </a>
                   </li>
                 ))}
