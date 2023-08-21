@@ -14,8 +14,11 @@
         {
           "title": "Puno",
           "destinations": [
-            { "title": "Titicaca Lake", "id": 1 },
-            { "title": "Taquile island", "id": 2 }
+            { "title": "LOS UROS", "id": 1 },
+            { "title": "TAQUILE ISLAND", "id": 2 },
+            { "title": "AMANTANI", "id": 3 },
+            { "title": "SILLUSTANI", "id": 4 },
+            { "title": "CHUCUITO", "id": 5 }
           ],
           "id": 2
         }
@@ -75,65 +78,189 @@
       "destinations": [
         {
           "id": 1,
-          "title": "THE FLOATING ISLANDS OF THE UROS",
+          "title": "FLOATING ISLANDS OF THE UROS",
           "image": "src/assets/img/golden/LOS UROS 9.jpg",
-          "description": "The Uros, a floating people located within the Bay of Lake Titicaca, approximately 6 km from the city of Puno (25 to 30 minutes by motorboat). Currently, there are over 100 floating islands made of totora reeds. According to history, the Uros were the oldest inhabitants of the ethnic groups that populated the Puno region. This Aymara-speaking community keeps the tradition alive, including artisanal fishing, hunting, and taxidermy of wild birds, egg collection, men who are expert builders and drivers of totora reed rafts, and women who are skilled weavers of textiles and handicrafts. The totora reed is very important for this ancestral Uros community as they use it for building their homes, transportation (rafts), natural medicine, and as fuel for cooking their food.",
+          "description": "The Uros, a floating village located within the Bay of Lake Titicaca about 6 km approx. from the city of Puno (25 to 30 minutes motorboat ride). There are currently more than 100 floating islands made from the totora plant. According to history, the Uros were the oldest inhabitants of the ethnic groups that populated the Puno region. This Aymara-speaking community keeps traditions alive, such as artisanal fishing, hunting and preserving wild birds, egg collection, with men being skilled constructors and drivers of totora rafts, and women being adept weavers of textiles and handicrafts. The Totora plant is very important for this ancestral Uros community, as it's used for building their dwellings, transportation (rafts), natural medicine, and as fuel for cooking.",
           "days": [],
           "itinerary": [
-            ["08:45", "Pick-up from hotels in downtown Puno and transfer to the Lake Titicaca port"],
-            ["09:00", "Departure by boat to the Uros Islands"],
+            ["08:45", "Pickup from hotels in downtown Puno and transfer to the Lake Titicaca port"],
+            ["09:00", "Departure of the boat to the Uros islands"],
             ["09:30", "Visit to the floating islands of the Uros (2 islands)"],
-            ["12:15", "Return to the city of Puno and transfer to downtown hotels or bus station"]
+            ["12:15", "Return to the city of Puno and transfer to downtown hotels or bus station."]
           ],
           "includes": [
-            "Entrance fees to the Uros Islands",
-            "Spanish/English guide",
-            "Transfers from hotel to port and vice versa (only for hotels located in the city center)",
-            "Motorboat with restrooms and bus-style seating"
+            "Entrance tickets to the Uros islands.",
+            "Spanish/English-speaking guide.",
+            "Transfers from hotel - port - hotel (only for hotels located in the center)",
+            "Motorboat (with restroom and bus-style seats)."
           ],
           "notIncludes": [
             "Extra expenses",
-            "Use of public restrooms",
-            "Extra fee for pick-up from the following hotels: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka (additional $5 USD per person)"
+            "Use of public restrooms.",
+            "Extra charge for pickup at the following hotels: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka",
+            "Extra charge of $5 USD per person"
           ],
           "recomendation": [
-            "Wear lightweight and warm clothing (jacket, sweater, coat, gloves, and hats)",
-            "Wear sneakers or shoes for visits and walks",
-            "Wear a sun hat or cap",
-            "Wear sunglasses, sunscreen, and lip balm",
-            "Bring a raincoat for possible rain"
+            "Wear light and warm clothing (jacket, sweater, coat, gloves, and hats)",
+            "Sneakers or walking shoes for visits and walks",
+            "Sun hat or cap",
+            "Sunglasses, sunscreen, lip balm.",
+            "Rain gear for possible rain."
           ]
         },
         {
           "id": 2,
           "title": "TAQUILE ISLAND",
-          "image": "src/assets/img/golden/ISLA AMANTANI 40 MF.jpg",
-          "description": "Located 45 km from the city of Puno, Taquile Island has approximately 2,500 inhabitants of Quechua origin. They are known for their textile craftsmanship carried out by men and women of all ages, whose products are used by all members of the community. The tradition of weaving on Taquile Island dates back to the ancient Inca, Pukara, and Kolla civilizations, preserving the elements of pre-Hispanic Andean cultures. The people of Taquile have demonstrated advanced techniques in textile art, leading to their recognition by UNESCO as Intangible Cultural Heritage of Humanity (originally proclaimed in 2005). They also engage in other activities such as fishing, agriculture, and limited livestock farming. Additionally, they offer restaurant services and rural accommodations (typical homes), which have become part of their economic livelihood.",
+          "image": "src/assets/img/golden/ISLA TAQUILE MF 60.jpg",
+          "description": "Located 45 km from the city of Puno, with approximately 2500 inhabitants of Quechua origin. They are known for their textile craftsmanship, carried out by men and women of all ages. Their products are used by all members of the community. The tradition of weaving on Taquile Island dates back to the ancient Inca, Pukara, and Kolla civilizations, thus keeping alive the elements of pre-Hispanic Andean cultures. The people of Taquile have demonstrated advanced textile techniques and are recognized by UNESCO as Intangible Cultural Heritage of Humanity (originally proclaimed in 2005). They are also engaged in activities such as fishing, agriculture, and minimal livestock rearing. They offer services such as restaurants and rural accommodations (typical housing), which have become part of their economic sustenance.",
           "days": [
-            "At 6:50 a.m., pick-up from hotels in downtown Puno and transfer to the Lake Titicaca port. At 7:15 a.m., departure by boat to the floating islands of the Uros (approximately 30 minutes). We will visit two islands that still maintain their original culture, and our guide will explain their customs. Then, we continue the journey to Taquile Island (approximately 1 hour and 30 minutes). Once at the Taquile port, the walk to the village takes 45 minutes. Here, we will have 30 minutes of free time to observe textiles at the Taquile market. Lunch will be served at a typical restaurant overlooking the lake. Afterward, Taquile families will demonstrate their customs and daily activities. Once the visit is over, we board the boat again to return to the city of Puno. Arrival at the port is around 4:00 p.m., followed by transfer to hotels."
+            [
+              "UROS TAQUILE TOUR (1 DAY)",
+              "At 6:50 a.m. Pick up passengers from hotels (downtown Puno) and transfer to the Lake Titicaca port.",
+              "At 7:15 a.m. Boat departure to the floating islands of Uros (approx. 30 minutes), visit two islands that still maintain their native culture, our guide will explain their customs. Then we continue the journey to Taquile Island (approx. 1 hour and 30 minutes). Once at the port of Taquile, the walk to the village takes 45 minutes. Here, we will have 30 minutes of free time to observe textiles at the Taquile island market.",
+              "Lunch is at a typical restaurant with a view of the lake, then Taquile families demonstrate their customs and daily activities. After the visit, we board the boat again for the return trip to the city of Puno, arriving at the port around 4:00 p.m. Approx., then transferred to hotels."
+            ]
           ],
           "itinerary": [
-            ["06:45", "Pick-up from hotels in downtown Puno and transfer to the Lake Titicaca port"],
-            ["07:15", "Departure by boat to the floating islands of the Uros"],
-            ["07:45", "Visit two floating islands of the Uros"],
-            ["09:30", "Departure to Taquile Island"],
-            ["11:00", "Arrival at the southern part of Taquile, welcome, and demonstration of weaving by the local people"],
-            ["12:00", "Typical lunch from the region and free time to explore the area"],
-            ["14:00", "Departure by boat to the city of Puno"],
-            ["15:45", "Arrival at the port and transfer to downtown hotels or bus station"]
+            ["06:45", "Pickup from hotels in downtown Puno and transfer to the Lake Titicaca port"],
+            ["07:15", "Boat departure to the floating islands of Uros"],
+            ["07:45", "Visit to two Floating Islands of Uros"],
+            ["09:30", "Departure to Taquile Island."],
+            ["11:00", "Arrival at the southern part of Taquile, welcome and weaving demonstration by the locals."],
+            ["12:00", "Typical lunch of the region and free time to explore the area."],
+            ["14:00", "Boat departure to the city of Puno."],
+            ["15:45", "Arrival at the port and transfer to downtown hotels or bus station."]
           ],
           "includes": [
-            "Entrance fees to the Uros and Taquile Islands",
-            "Spanish/English guide",
-            "Transfers from hotel to port and vice versa (only for hotels located in the city center)",
-            "Motorboat with restrooms and bus-style seating",
+            "Entrance tickets to the Uros and Taquile islands",
+            "Spanish/English-speaking guide.",
+            "Transfers from hotel - port - hotel (only for hotels located in the center)",
+            "Motorboat (with restroom and bus-style seats)",
             "Lunch"
           ],
           "notIncludes": [
             "Extra expenses",
-            "Use of public restrooms",
-            "Extra fee for pick-up from the following hotels: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka (additional $5 USD per person)"
+            "Use of public restrooms.",
+            "Extra charge for pickup at the following hotels: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka",
+            "Extra charge of $5 USD per person"
           ],
+          "recomendation": []
+        },
+        {
+          "id": 3,
+          "title": "AMANTANI",
+          "image": "src/assets/img/golden/ISLA DE AMANTANI 66.jpg",
+          "description": "Amantaní Island is located on Lake Titicaca, 38 km from the city of Puno. It offers experiential tourism, thanks to the preservation of its customs, ancestral traditions, and authentic experiences. Its welcoming people and breathtaking landscapes will provide an unforgettable experience. You can also support the island's families as tourism is their primary economic activity.",
+          "days": [
+            [
+              "DAY 1: UROS – AMANTANI – TAQUILE VIVENTIAL TOUR 2D-1N",
+              "At 7:50 a.m., we pick up passengers from their hotels and transfer them to the port in the city of Puno, where we will board our comfortable motorboat towards the Floating Islands of Uros. The excursion begins around 8:15 a.m. During the ride, we'll observe the flora and fauna of Lake Titicaca. After a 30-minute navigation, we'll arrive at the native families still living on the islands in the middle of the lake, which they constructed themselves. You'll have the chance to experience their cultural demonstration, way of life, and get up close to their reality.",
+              "1:00 p.m.: Arrival at Amantaní Island, where local families will welcome us and take us to their guesthouse. We'll enjoy a delicious typical lunch.",
+              "4:00 p.m.: We start a walk to the highest point of the island, the ceremonial center called 'PACHATATA.' From here, we'll witness a beautiful sunset. After this experience, we return to the family guesthouse for dinner.",
+              "In the evening, after dinner, the families organize a folkloric party or 'peña,' with Andean music and dance. You'll be invited to join, wearing the island's traditional clothing, for an unforgettable moment with local and foreign people."
+            ],
+            [
+              "DAY 2: AMANTANI – TAQUILE – PUNO.",
+              "We'll enjoy a delicious Andean breakfast with our host family, followed by a farewell.",
+              "Then, we'll board the boat to Taquile Island, considered the most beautiful island on Lake Titicaca due to its stunning landscapes. We'll hike uphill to the main square, where you'll have the best view of the Sacred Inca Lake. We'll also have the opportunity to see the best textiles made by locals, recognized by UNESCO as Intangible Cultural Heritage of Humanity. Afterward, we'll enjoy a delicious lunch.",
+              "1:00 p.m.: We board the boat again for the return trip to the city of Puno, arriving at the port around 3:15 p.m. Approx., then transferred to hotels or bus station."
+            ]
+          ],
+          "itinerary": [
+            ["", "FIRST DAY:"],
+            ["07:50", "Pickup from hotels in downtown Puno and transfer to the Lake Titicaca port"],
+            ["08:15", "Boat departure to the Floating Islands of Uros"],
+            ["08:50", "Visit to two Floating Islands of Uros"],
+            ["11:00", "Departure to Amantaní Island."],
+            ["13:00", "Arrival at Amantaní Island, welcome and accommodation in family homes."],
+            ["14:00", "Typical lunch of the region and free time to explore the area."],
+            ["16:00", "Hike to the Pachatata temple (sacred place)"],
+            ["19:00", "Dinner at a family home."],
+            ["20:00", "Folkloric party (optional)"],
+            ["", "SECOND DAY:"],
+            ["08:00", "Boat departure to Taquile Island, farewell to our hosts."],
+            ["09:00", "Arrival at the port of Taquile Island, hike to the square."],
+            ["11:00", "Welcome and weaving demonstration by the locals at the restaurant with a view of the lake."],
+            ["12:00", "Typical lunch."],
+            ["13:00", "Boat departure to Puno"],
+            ["15:15", "Arrival at the port of Puno and transfer to downtown hotels or bus station."]
+          ],
+          "includes": [
+            "Transfers from hotel - port - hotel (only for hotels located in the center)",
+            "Motorboat (round-trip with restroom and bus-style seats)",
+            "Entrance tickets to the Uros, Amantaní, and Taquile islands",
+            "Basic accommodation on Amantaní Island (sanitary facilities, no shower)",
+            "Lunch, dinner, and breakfast on Amantaní Island, and lunch (second day) on Taquile Island",
+            "Bilingual Spanish – English guide."
+          ],
+          "notIncludes": [
+            "Extra expenses",
+            "Use of public restrooms.",
+            "Extra charge for pickup at the following hotels: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka",
+            "Extra charge of $5 USD per person"
+          ],
+          "recomendation": ["Walking shoes", "Extra warm clothing", "Waterproof clothing (only in January, February, and March)", "Sunscreen", "Sun hat"]
+        },
+        {
+          "id": 4,
+          "title": "SILLUSTANI",
+          "image": "src/assets/img/golden/SILLUSTANI 6.jpg",
+          "description": "Sillustani is an ancient mystical cemetery located 35 km from the city of Puno. Here, you can see a series of impressive tombs built by the Colla and Inca civilizations. Access to this archaeological complex is easy, the route is via an asphalt road, and it's situated at an altitude of 3,925 meters above sea level. Sillustani is a small peninsula with an indescribable landscape. According to recent studies, these funerary towers were not just tombs; they also had a connection to certain energy forces present in the area. In fact, countless people have experienced magical and inexplicable experiences here.",
+          "days": [
+            [
+              "",
+              "At 2:50 p.m.: Pickup starts from the passengers' hotels located in the city center of Puno.",
+              "At 2:00 p.m.: The bus departs to the Sillustani archaeological complex. Arrival in approximately 40 minutes. We'll then start the walk to the Kolla and Inca necropolis, where you can appreciate the advanced architecture and ancestral engineering displayed in each funerary tower of the cemetery. You'll enjoy the positive energy of this sacred place, and the visit will last about 1 hour and 30 minutes.",
+              "At 4:30 p.m., the bus returns to the city of Puno. During the trip, there will be a brief stop (approx. 10 minutes) at a family home to observe their customs. The local people still live in typical houses made of stone, mud, and straw. Additionally, you'll have the opportunity to get up close to South American camelids like the Huanaco, llama, and alpaca, and take photographs.",
+              "At 6:00 p.m.: Arrival in the Puno city center's main square and transfer to your hotel."
+            ]
+          ],
+          "itinerary": [
+            ["13:50", "Pickup from hotels in downtown Puno."],
+            ["14:00", "Departure to the Sillustani archaeological complex."],
+            ["14:40", "Arrival at Sillustani and ascent to the Inca Uyo Temple."],
+            ["16:30", "Return to the city of Puno."],
+            ["16:40", "Visit to a local family's house in the area."],
+            ["18:00", "Arrival and transfer to downtown hotels."]
+          ],
+          "includes": [
+            "Entrance tickets to the Archaeological Complex.",
+            "Spanish/English-speaking guide.",
+            "Transfers from hotel to hotel (only for hotels located in the center)",
+            "Tourist Transportation."
+          ],
+          "notIncludes": [
+            "Extra expenses",
+            "Use of public restrooms.",
+            "Extra charge for pickup at the following hotels: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka",
+            "Extra charge of $5 USD per person"
+          ],
+          "recomendation": []
+        },
+        {
+          "id": 5,
+          "title": "CHUCUITO",
+          "image": "src/assets/img/golden/CHUCUITO.png",
+          "description": "",
+          "days": [
+            [
+              "",
+              "INCA UYO: The 'Inca Uyo' or temple of fertility has a rectangular shape and a ceremonial character. It's a sacred place where rituals paying homage to Pachamama (Mother Earth) and the sun are performed. You can find up to 80 phallic figures here. It was also used as an astronomical observatory by the Incas. Inca Uyo is ideal for meditation.",
+              "IGLESIA DE LA ASUNCIÓN (CHURCH OF THE ASSUMPTION): This church is composed of columns and arches, showcasing Peruvian Renaissance-style colonial architecture. It's also known for the festival held on August 15th, which marks the beginning of the agricultural campaign. The festival involves various Andean religious symbols, such as the 'huajjcha,' where cooked quinoa and lime dough balls are thrown from the church towers.",
+              "MIRADOR DE CHUCUITO (CHUCUITO VIEWPOINT): This was an ancient Lupaca ceremonial center, and it's now used for farewells to the carnival festival. It's made of clay, with tiles and adobe.",
+              "IGLESIA SANTO DOMINGO CHUCUITO (SAINT DOMINIC CHURCH): Founded in 1539, the main altar is carved in wood with gold leaf. In October, the Virgin of the Rosary is venerated here. There are two bronze bells in the church.",
+              "You'll also find the catechesis cross, carved in stone with images of the Virgin Mary and the apostle Saint John. This cross was used to initiate the indoctrination of the indigenous people.",
+              "CHUCUITO FISH FARM (OPTIONAL): In the freshwater ponds, you can find exquisite trout. The Chucuito fish farm breeds rainbow trout with pink flesh and other species like the 'trucha de enrollo,' which used to grow over a meter long in the past. This research center by the UNA was created to repopulate the species, which was endangered due to trout fishing across Lake Titicaca."
+            ]
+          ],
+          "itinerary": [
+            ["09:30", "Departure from your hotels in Puno, heading to Chucuito."],
+            ["10:00", "Arrival in Chucuito and visit Inca Uyo, Santo Domingo and Asunción Churches, Mirador, Fish Farm (if open)."],
+            ["11:30", "Return to Puno."],
+            ["12:00", "Arrival and transfer to downtown hotels."]
+          ],
+          "includes": ["Admission to the Inca Uyo Temple", "Spanish/English-speaking guide.", "Tourist transportation."],
+          "notIncludes": ["Extra expenses", "Use of public restrooms."],
           "recomendation": []
         }
       ],

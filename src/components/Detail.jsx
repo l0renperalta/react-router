@@ -12,6 +12,29 @@ function Detail() {
 
   const data = t(`peru.${place - 1}.destinations.${destination - 1}`, { returnObjects: true });
 
+  const tourDaysObject = [];
+  for (const element of data.days) {
+    const [, ...days] = element;
+    tourDaysObject.push({
+      title: element[0],
+      paragraphs: days,
+    });
+  }
+
+  const formatText = (inputText) => {
+    const parts = inputText.split(':');
+
+    if (parts.length === 2 && !isNaN(parts[0])) {
+      return (
+        <>
+          <strong>{parts[0]}</strong>:{parts[1]}
+        </>
+      );
+    } else {
+      return inputText;
+    }
+  };
+
   return (
     <main id="main">
       <Banner title={`Tour ${location.pathname.split('/')[2]}`} />
@@ -67,7 +90,23 @@ function Detail() {
                         <div className="row">
                           <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
                             <h3>{data.title}</h3>
-                            <p className="fst-italic">{data.description}</p>
+                            <p>{data.description}</p>
+                            {/* <p className="fst-italic">{data.description}</p> */}
+                            {tourDaysObject.map((e) => (
+                              <>
+                                <h2>{e.title}</h2>
+                                {e.paragraphs.map((paragraph) => formatText(paragraph))}
+                                {/* {e.paragraphs.map((paragraph) =>
+                                  paragraph.split('').some((e) => e === ':') ? (
+                                    <p>
+                                      <strong>{paragraph.split(':')[0]}:</strong> {paragraph.split(':')[1]}
+                                    </p>
+                                  ) : (
+                                    <p>{paragraph}</p>
+                                  )
+                                )} */}
+                              </>
+                            ))}
                           </div>
                         </div>
                       </div>
@@ -85,8 +124,19 @@ function Detail() {
                               <tbody>
                                 {data.itinerary.map((e, index) => (
                                   <tr key={index}>
-                                    <td>{e[0]}</td>
-                                    <td>{e[1]}</td>
+                                    {e[0] === '' ? (
+                                      <>
+                                        <td>{e[0]}</td>
+                                        <td>
+                                          <strong>{e[1]}</strong>
+                                        </td>
+                                      </>
+                                    ) : (
+                                      <>
+                                        <td>{e[0]}</td>
+                                        <td>{e[1]}</td>
+                                      </>
+                                    )}
                                   </tr>
                                 ))}
                               </tbody>
@@ -187,3 +237,19 @@ function Detail() {
 }
 
 export default Detail;
+
+// JSON TEMPLATE
+// {
+//   "id": 4,
+//   "title": "TITULO",
+//   "image": "src/assets/img/golden/ISLA AMANTANI 40 MF.jpg",
+//   "description": "DESCRIPCION",
+//   "days": [["DÍA 1: TITULO", "07:50 a.m. ACTIVIDAD"]],
+//   "itinerary": [
+//     ["", "PRIMER DIA:"],
+//     ["07:50", "Recojo de hoteles del cercado de Puno y traslado al puerto del lago Titicaca"]
+//   ],
+//   "includes": ["traslado"],
+//   "notIncludes": ["extras"],
+//   "recomendation": ["recomendation1"]
+// }

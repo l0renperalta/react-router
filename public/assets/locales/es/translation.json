@@ -14,8 +14,11 @@
         {
           "title": "Puno",
           "destinations": [
-            { "title": "Lago Titicaca", "id": 1 },
-            { "title": "Isla de taquile", "id": 2 }
+            { "title": "LOS UROS", "id": 1 },
+            { "title": "ISLA DE TAQUILE", "id": 2 },
+            { "title": "AMANTANI", "id": 3 },
+            { "title": "SILLUSTANI", "id": 4 },
+            { "title": "CHUCUITO", "id": 5 }
           ],
           "id": 2
         }
@@ -87,7 +90,7 @@
             ["08:45", "Recojo de hoteles del cercado de Puno y traslado al puerto del lago Titicaca"],
             ["09:00", "Salida de la embarcación con destino a las islas de Los Uros"],
             ["09:30", "Visita a las islas flotantes de Los Uros (2 islas)"],
-            ["12:15", "Retorno a la ciudad de Puno y traslado a hoteles del centro de ciudad o estación de bus."]
+            ["12:15", "Retorno a la ciudad de Puno y traslado a hoteles del centro de la ciudad o estación de bus."]
           ],
           "includes": [
             "Entradas a las islas de los Uros.",
@@ -96,9 +99,10 @@
             "Barco a motor (con SSHH y asientos tipo bus)."
           ],
           "notIncludes": [
-            "Gastos Extras.",
+            "Gastos Extras",
             "Uso de baños públicos.",
-            "Pago extra por recojo en los siguientes hoteles: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka Pago extra de $5USD por persona"
+            "Pago extra por recojo en los siguientes hoteles: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka",
+            "Pago extra de $5USD por persona"
           ],
           "recomendation": [
             "Llevar ropa ligera y abrigada (casaca, chompa, abrigo, guantes y gorros)",
@@ -111,20 +115,25 @@
         {
           "id": 2,
           "title": "ISLA DE TAQUILE",
-          "image": "src/assets/img/golden/ISLA AMANTANI 40 MF.jpg",
-          "description": "Ubicado a 45 Km. de la ciudad de Puno tiene aprox. Tiene 2500 habitantes, son de origen quechua y se caracterizan por su artesanía textil realizado por hombres y mujeres de todas las edades, cuyos productos son usados por todos los miembros de la comunidad. La tradición de tejer en la isla de Taquile se remonta a las antiguas civilizaciones Incas, Pukaras y Kollas, por lo que mantiene vivos los elementos de las culturas andinas prehispánicas. Los Taquileños han demostrado técnicas avanzadas en el arte Textil, por lo que son reconocidos por la UNESCO como Patrimonio Cultural Inmaterial de la Humanidad (originalmente proclamado en el 2005) Además se dedican a otras actividades como  son: la pesca, la agricultura y muy poco a la ganadería. También ofrecen servicios de Restaurantes, hospedajes rurales; (viviendas típicas) esta actividad hoy en día ya es parte de su sustento económico.",
+          "image": "src/assets/img/golden/ISLA TAQUILE MF 60.jpg",
+          "description": "Ubicado a 45 Km. de la ciudad de Puno tiene aprox. Tiene 2500 habitantes, son de origen quechua y se caracterizan por su artesanía textil realizado por hombres y mujeres de todas las edades, cuyos productos son usados por todos los miembros de la comunidad. La tradición de tejer en la isla de Taquile se remonta a las antiguas civilizaciones Incas, Pukaras y Kollas, por lo que mantiene vivos los elementos de las culturas andinas prehispánicas. Los Taquileños han demostrado técnicas avanzadas en el arte Textil, por lo que son reconocidos por la UNESCO como Patrimonio Cultural Inmaterial de la Humanidad (originalmente proclamado en el 2005). Además se dedican a otras actividades como son: la pesca, la agricultura y muy poco a la ganadería. También ofrecen servicios de Restaurantes, hospedajes rurales; (viviendas típicas) esta actividad hoy en día ya es parte de su sustento económico.",
           "days": [
-            "A las 6:50 a. m. Recojo de pasajeros de hotel (cercado de Puno) y trasladado al puerto del Lago Titicaca. A las 7:15 a.m. salida de embarcación con destino a las islas flotantes de los Uros (viaje 30 min. aprox.), visitaremos dos Islas que aún mantienen su cultura originaria, nuestro guía explicará sus costumbres. Luego continuamos con el viaje a la isla Taquile, (1hrs y 30 min. aprox.), una vez en el puerto de Taquile, la caminata hacia el pueblo es de 45 minutos, aquí tendremos un tiempo libre de 30 minutos para observar tejidos en el mercadillo de la isla Taquile. El almuerzo es en un restaurante típico del lugar con vista al Lago, luego las familias taquileñas realizan demostraciones de sus costumbres y actividades cotidianas. Terminado la visita, abordamos nuevamente a la embarcación de retorno a la ciudad de Puno, arribo al puerto 4:00 p.m. Aprox. luego trasladado a hoteles."
+            [
+              " TOUR ISLAS UROS TAQUILE (1DIA)",
+              "A las 6:50 a. m. Recojo de pasajeros de hotel (cercado de Puno) y trasladado al puerto del Lago Titicaca.",
+              "A las 7:15 a.m. salida de embarcación con destino a las islas flotantes de los Uros (viaje 30 min. aprox.), visitaremos dos Islas que aún mantienen su cultura originaria, nuestro guía explicará sus costumbres. Luego continuamos con el viaje a la isla Taquile, (1hrs y 30 min. aprox.), una vez en el puerto de Taquile, la caminata hacia el pueblo es de 45 minutos, aquí tendremos un tiempo libre de 30 minutos para observar tejidos en el mercadillo de la isla Taquile.",
+              "El almuerzo es en un restaurante típico del lugar con vista al Lago, luego las familias taquileñas realizan demostraciones de sus costumbres y actividades cotidianas. Terminado la visita, abordamos nuevamente a la embarcación de retorno a la ciudad de Puno, arribo al puerto 4:00 p.m. Aprox. luego trasladado a hoteles."
+            ]
           ],
           "itinerary": [
             ["06:45", "Recojo de hoteles del cercado de Puno y traslado al puerto del lago Titicaca"],
             ["07:15", "Salida de la embarcación con destino a las islas de Los Uros"],
             ["07:45", "Visita a dos Islas Flotantes de Los Uros"],
-            ["09:30", "Salida a la Isla Taquile"],
-            ["11:00", "Arribo a la parte sur de Taquile, bienvenida y demostración de tejidos por la gente local"],
-            ["12:00", "Almuerzo típico de la zona y tiempo libre para explorar el lugar"],
-            ["14:00", "Salida de la embarcación a la ciudad de Puno"],
-            ["15:45", "Arribo al puerto y traslado a hoteles del centro de ciudad o estación de bus"]
+            ["09:30", "Salida a la Isla Taquile."],
+            ["11:00", "Arribo a la parte sur de Taquile, bienvenida y demostración de tejidos por la gente local."],
+            ["12:00", "Almuerzo típico de la zona y tiempo libre para explorar el lugar."],
+            ["14:00", "Salida de la embarcación a la ciudad de Puno."],
+            ["15:45", "Arribo al puerto y traslado a hoteles del centro de la ciudad o estación de bus."]
           ],
           "includes": [
             "Entradas a las islas de los Uros y Taquile",
@@ -136,8 +145,133 @@
           "notIncludes": [
             "Gastos Extras",
             "Uso de baños públicos.",
-            "Pago extra por recojo en los siguientes hoteles: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka Pago extra de $5USD por persona"
+            "Pago extra por recojo en los siguientes hoteles: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka",
+            "Pago extra de $5USD por persona"
           ],
+          "recomendation": []
+        },
+        {
+          "id": 3,
+          "title": "AMANTANI",
+          "image": "src/assets/img/golden/ISLA DE AMANTANI 66.jpg",
+          "description": "La isla de Amantaní está ubicada en Lago Titicaca a 38 Km. de la ciudad de Puno. Aquí se realiza el turismo vivencial, gracias a la conservación de sus costumbres, tradiciones ancestrales y auténticas, su gente acogedora y la grandeza de sus paisajes harán que usted viva una experiencia inolvidable; además podrá apoyar a las familias de la isla ya que su principal actividad económica es el turismo.",
+          "days": [
+            [
+              "DÍA 1: TOUR VIVENCIAL UROS – AMANTANI – TAQUILE 2D-1N",
+              "07:50 a.m. recojo a nuestros pasajeros desde sus hoteles y traslado al puerto de la ciudad de Puno, donde tomaremos nuestro cómodo bote a motor con dirección a las Islas Flotantes de los Uros. La excursión comienza aproximadamente a las 8:15, durante el paseo observaremos la flora y fauna  del Lago Titicaca, navegación de 30 minutos y arribo, aquí podrá ver a las familia nativas que aún viven sobre las Islas en medio del lago que fueron construidos por ellos mismos, también  podrá ser partícipe de una demostración cultural, el modo de vida  y conocer de cerca  su realidad.",
+              "13:00: Llegamos a la isla de Amantaní donde nos estarán esperando las familias locales para darnos una bienvenida cálida y llevarnos a su casa hospedaje donde no instalaremos y tendremos un almuerzo típico delicioso.",
+              "16:00: Se inicia un paseo hacia el punto más alto de la isla. Se trata del centro ceremonial llamado “PACHATATA”. Desde este punto apreciaremos un atardecer hermoso, luego de ser partícipe de ésta experiencia retorno al hospedaje familiar para la cena.",
+              "Por la noche después de la cena, las familias organizan una fiesta o peña folclórica,  la celebración es con música y baile andino al que será́ invitado, para ello usaremos la ropa típica de la Isla  y pasaremos un momento inolvidable entre gente local y extranjeros."
+            ],
+            [
+              "DÍA 2: AMANTANI – TAQUILE – PUNO.",
+              "Tendremos un desayuno delicioso andino en compañía de nuestra familia anfitriona, posterior a ello despedida.",
+              "Luego nos embarcaremos rumbo a la Isla Taquile, catalogada como la isla más hermosa del Lago Titicaca por sus bellos paisajes, aquí caminaremos cuesta arriba hasta llegar a la plaza principal,  dónde usted tendrá la mejor vista del Lago Sagrado de los Incas; además tendremos la oportunidad de conocer los mejores tejidos elaborados por los lugareños por lo que son reconocidos por la UNESCO como Patrimonio Cultural Inmaterial de la Humanidad, posterior a ello podremos disfrutar de un delicioso almuerzo. ",
+              "13:00: Abordamos nuevamente a la embarcación de retorno a la ciudad de Puno, arribo al puerto 15:15 Aprox. luego trasladado a hoteles o estación de bus."
+            ]
+          ],
+          "itinerary": [
+            ["", "PRIMER DIA:"],
+            ["07:50", "Recojo de hoteles del cercado de Puno y traslado al puerto del lago Titicaca"],
+            ["08:15", "Salida de la embarcación con destino a las islas de Los Uros"],
+            ["08:50", "Visita a dos Islas Flotantes de Los Uros"],
+            ["11:00", "Salida a la Isla Amantani."],
+            ["13:00", "Arribo a la Isla Amantani, bienvenida y acomodación en casas familiares."],
+            ["14:00", "Almuerzo típico de la zona y tiempo libre para explorar el lugar."],
+            ["16:00", "Caminata hacia el templo del Pachatata (Lugar sagrado)"],
+            ["19:00", "Cena en casa familiar."],
+            ["20:00", "Fiesta con peña folclórica (Opcional)"],
+            ["", "SEGUNDO DIA:"],
+            ["08:00", "Salida de la embarcación a la isla Taquile, despedida de nuestros anfitriones."],
+            ["09:00", "Arribo al puerto de la isla Taquile, caminata hacia la plaza."],
+            ["11:00", "Bienvenida y demostración de tejidos por la gente local del restaurante con vista al lago."],
+            ["12:00", "Almuerzo Típico."],
+            ["13:00", "Salida de la embarcación a Puno"],
+            ["15:15", "Arribo al puerto de Puno y traslado a hoteles del centro de la ciudad o estación de bus."]
+          ],
+          "includes": [
+            "Traslados desde hotel - puerto - hotel (sólo los hoteles situados en el centro)",
+            "Barco a motor ( Ida y vuelta con SSHH y asientos tipo bus)",
+            "Entradas a las islas flotantes de los Uros, Amantani y Taquile",
+            "Alojamiento básico en la isla de Amantani (instalaciones sanitarias, sin ducha)",
+            "El almuerzo, cena y desayuno en la isla de Amantani y almuerzo (segundo día) en la isla de Taquile",
+            "Guía Bilingüe Español – Inglés."
+          ],
+          "notIncludes": [
+            "Gastos Extras",
+            "Uso de baños públicos.",
+            "Pago extra por recojo en los siguientes hoteles: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka",
+            "Pago extra de $5USD por persona"
+          ],
+          "recomendation": [
+            "Zapatos para caminar",
+            "ropa de abrigo extra",
+            "ropa impermeable (enero, febrero y marzo solamente)",
+            "pantalla de sol",
+            "sombrero para el sol"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "SILLUSTANI",
+          "image": "src/assets/img/golden/SILLUSTANI 6.jpg",
+          "description": "Es un antiguo cementerio místico a 35km de la ciudad de Puno,  donde se pueden ver una serie de impresionantes tumbas construidas por los Collas y los Incas,  el acceso a este complejo arqueológico es tranquilo, la ruta es por carretera asfaltada, se encuentra a una altura de 3,925 m.s.n.m. Sillustani es una pequeña península con un paisaje indescriptible, según los últimos estudios estas torres funerarias no solo eran tumbas pues su utilidad también tenía relación con ciertas fuerzas energéticas existentes en el lugar. De hecho, infinidad de personas han protagonizado allí magicas e inexplicables experiencias.",
+          "days": [
+            [
+              "",
+              "A las 14:50: Inicio de recojo a los pasajeros de sus hoteles situados en el centro de la ciudad de Puno.",
+              "A las 14:00: El bus sale con destino al complejo arqueológico de Sillustani,  arribo en 40 minutos aprox, seguidamente iniciamos la caminata hacia la necrópolis de la época kolla e Inca; donde se aprecia la avanzada arquitectura e ingeniería ancestral mostradas en cada torre funeraria del cementerio, disfrutaremos de la energía positiva de este lugar sagrado, el tiempo de visita es 01 hora y 30 minutos aprox.",
+              "A las 16:3 el bus retorna a la ciudad de Puno; en el trayecto habrá una breve parada (10 minutos aprox.) en una casa de familia para apreciar sus costumbres, la gente de lugar aún vive en casas típicas construidas a base de piedras, barro y pajas. Asimismo, podrán observar de cerca a los camélidos sudamericanos como el Huanaco, la llama, la alpaca y tendrá la oportunidad de tomar fotografías.",
+              "A las 18:00: Arribo a la ciudad de Puno en la plaza de armas y traslado a su hotel en el centro de la Ciudad."
+            ]
+          ],
+          "itinerary": [
+            ["13:50", "Recojo de hoteles del cercado de Puno."],
+            ["14:00", "Salida con destino al complejo arqueológico de Sillustani."],
+            ["14:40", "Arribo a Sillustani y ascenso al Cementerio de los Incas."],
+            ["16:30", "Retorno a la ciudad de Puno."],
+            ["16:40", "Visita a la Casa familiar de la zona."],
+            ["18:00", "Arribo y traslado a hoteles del centro de la ciudad."]
+          ],
+          "includes": [
+            "Entradas al Complejo Arqueologico.",
+            "Guía Español/Inglés.",
+            "Traslados desde hotel al hotel (sólo los hoteles situados en el centro)",
+            "Transporte Turistico."
+          ],
+          "notIncludes": [
+            "Gastos Extras",
+            "Uso de baños públicos.",
+            "Pago extra por recojo en los siguientes hoteles: Casa Andina Premium, Sonesta Posada del Inka, Xima Hotel, GHL Lago Titikaka",
+            "Pago extra de $5USD por persona"
+          ],
+          "recomendation": []
+        },
+        {
+          "id": 5,
+          "title": "CHUCUITO",
+          "image": "src/assets/img/golden/CHUCUITO.png",
+          "description": "",
+          "days": [
+            [
+              "",
+              "INCA UYO: El “Inca Uyo” o templo de la fertilidad, de forma rectangular y carácter ceremonial, que es un lugar sagrado donde se realiza rituales de pago a la Pachamama y culto al sol. Podemos encontrar hasta 80 figuras en forma de penes. Usado también como observatorio astronómico por los incas. El Inca Uyo es propicio para la meditación.",
+              "IGLESIA DE LA ASUNCIÓN: Compuesta de columnas y arcos, de arquitectura virreinal renacentista peruana. Conocida también por la fiesta que se realiza el 15 de agosto, donde se manifiesta el inicio de la campaña agrícola, a través de varios simbolismos andino religiosos como la \"huajjcha\" donde se arrojan quispiños (masa cocida de quinua y cal) desde las torres del templo de la asunción.",
+              "MIRADOR DE CHUCUITO: Antiguo centro ceremonial Lupaca, en la actualidad se realizan las ceremonias de despedida de la fiesta de carnavales; está hecho de barro con teja y adobe.",
+              "IGLESIA SANTO DOMINGO CHUCUITO: Fundando en 1539, el altar mayor es tallado en madera con pan de oro; además en este templo se venera a la virgen del rosario en el mes de octubre. Tiene dos campanas hechas de bronce.",
+              "Se encuentra también La cruz de catequesis, tallada en piedra con imágenes de la Virgen María, y el apóstol San Juan, cruz con la cual se iniciaba el adoctrinamiento a los indígenas",
+              "PISCICULTURA DE CHUCUITO (OPCIONAL): De aguas dulces, carne exquisita, se encuentran las truchas de la piscicultura de chucuito, usted podrá ver el proceso de reproducción, crecimiento de la trucha arcoíris de carne rosada y otras especies como la trucha de enrollo que en el pasado llegaban a medir más de un metro.",
+              "Este centro de investigación de la UNA fue creado para repoblar la especie que estaba en proceso de extinción debido a la pesca de trucha en todo el lago Titicaca."
+            ]
+          ],
+          "itinerary": [
+            ["09:30", "Salida desde sus hoteles en Puno, rumbo a Chucuito."],
+            ["10:00", "Arribo a Chucuito y visita Inca Uyo, Iglesias Santo Domingo y Asunción, Mirador, Psicultura (Si está abierto)."],
+            ["11:30", "Retorno a Puno."],
+            ["12:00", "Arribo y traslado a hoteles del centro de la ciudad."]
+          ],
+          "includes": ["Ingresos al Templo del Inka Uyo", "Guía Español Ingles.", "Transporte Turístico."],
+          "notIncludes": ["Gastos Extras", "Uso de baños públicos."],
           "recomendation": []
         }
       ],

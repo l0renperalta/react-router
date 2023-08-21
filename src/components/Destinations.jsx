@@ -27,7 +27,6 @@ function Destinations() {
                     <img src={`${t.image.replace('src', '')}`} className="img-fluid" alt="" />
                     <span className="post-date">December 12</span>
                   </div>
-
                   <div className="post-content d-flex flex-column">
                     <h3 className="post-title">{t.title}</h3>
 

@@ -28,9 +28,6 @@ function Header() {
   const nav = t('nav', { returnObjects: true });
 
   const peruDestionatios = nav[0].destinations;
-  console.log('nav elements', nav);
-  console.log('peru arrary ', nav[0]);
-  console.log(typeof peruDestionatios);
 
   return (
     <header id="header" className="header d-flex align-items-center">
