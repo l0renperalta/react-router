@@ -13,24 +13,72 @@ function Footer() {
                   <strong>Address:</strong> Jr. Teodoro Valcárcel 153 Puno – Perú
                   <br />
                   <br />
-                  <strong>Phone:</strong> +51 951 524845 (Janette)
+                  <strong>Phone:</strong>{' '}
+                  <a
+                    style={{ color: '#ffffff' }}
+                    href="https://wa.me/51951524845?text=Hello,%20I%20want%20to%20know%20more%20about%20your%20service.%20Can%20you%20help%20me?"
+                  >
+                    +51 951 524845 (Janette)
+                  </a>
                   <br />
-                  <strong>Phone:</strong> +51 951 633063 (Marcia)
+                  <strong>Phone:</strong>{' '}
+                  <a
+                    style={{ color: '#ffffff' }}
+                    href="https://wa.me/51951633063?text=Hello,%20I%20want%20to%20know%20more%20about%20your%20service.%20Can%20you%20help%20me?"
+                  >
+                    +51 951 633063 (Marcia)
+                  </a>
                   <br />
-                  <strong>Phone:</strong> +51 969 404075 (Marisol)
+                  <strong>Phone:</strong>{' '}
+                  <a
+                    style={{ color: '#ffffff' }}
+                    href="https://wa.me/51969404075?text=Hello,%20I%20want%20to%20know%20more%20about%20your%20service.%20Can%20you%20help%20me?"
+                  >
+                    +51 969 404075 (Marisol)
+                  </a>
+                  <br />
+                  <strong>Phone:</strong>{' '}
+                  <a
+                    style={{ color: '#ffffff' }}
+                    href="https://wa.me/51967629969?text=Hello,%20I%20want%20to%20know%20more%20about%20your%20service.%20Can%20you%20help%20me?"
+                  >
+                    +51 967 629969 (Celine)
+                  </a>
                   <br />
                   <br />
-                  <strong>Email:</strong> info@chasquitours.com
+                  <strong>Email:</strong>{' '}
+                  <a style={{ color: '#ffffff' }} href="mailto:chasquitoursperu1@hotmail.com">
+                    chasquitoursperu1@hotmail.com
+                  </a>
                   <br />
-                  <strong>Email:</strong> reservas@chasquitours.com
+                  <strong>Email:</strong>{' '}
+                  <a style={{ color: '#ffffff' }} href="mailto:chasquitourperu@gmail.com">
+                    chasquitourperu@gmail.com
+                  </a>
                   <br />
-                  <strong>Email:</strong> reservas2@chasquitours.com
+                  <strong>Email:</strong>{' '}
+                  <a style={{ color: '#ffffff' }} href="mailto:info@chasquitours.com">
+                    info@chasquitours.com
+                  </a>
+                  <br />
+                  <strong>Email:</strong>{' '}
+                  <a style={{ color: '#ffffff' }} href="mailto:reservas@chasquitours.com">
+                    reservas@chasquitours.com
+                  </a>
+                  <br />
+                  <strong>Email:</strong>{' '}
+                  <a style={{ color: '#ffffff' }} href="mailto:reservas2@chasquitours.com">
+                    reservas2@chasquitours.com
+                  </a>
                   <br />
                   <strong>Skype:</strong> chasquitours
                   <br />
                 </p>
                 <div className="social-links d-flex mt-3">
-                  <a href="#" className="d-flex align-items-center justify-content-center">
+                  <a
+                    href="https://wa.me/51951524845?text=Hello,%20I%20want%20to%20know%20more%20about%20your%20service.%20Can%20you%20help%20me?"
+                    className="d-flex align-items-center justify-content-center"
+                  >
                     <i className="bi bi-whatsapp"></i>
                   </a>
                   <a href="#" className="d-flex align-items-center justify-content-center">
